@@ -3,6 +3,8 @@ import React from "react";
 import CardTimeline from "./cardTimeline/CardTimeline";
 import TimeAndLocal from "./cardTimeline/TimeAndLocal";
 import IconTimeLine from "./cardTimeline/iconTimeline";
+import HardSkillsTimeline from "./cardTimeline/HardSkillsTimeline";
+import cursos from "../../cursos/dadosDosCursos";
 
 const ListarCursos = ({ itens }) => {
   return (
@@ -10,7 +12,7 @@ const ListarCursos = ({ itens }) => {
       <ol className="relative border-l border-gray-200 dark:border-gray-700">
         {itens.map((item) => (
           <li
-            className="ml-6 mb-6 text-left "
+            className="max-w-7xl  ml-6 mb-6 text-left "
             key={item.local}
           >
             <IconTimeLine />
@@ -21,10 +23,8 @@ const ListarCursos = ({ itens }) => {
             <CardTimeline
               image={item.image}
               title={item.titleCurse}
-              skills={item.softSkills}
+              softSkills={item.softSkills}
               hardSkills={item.hardSkills}
-              hardSkillsColor={item.hardSkillsColor}
-              itens={item}
             />
           </li>
         ))}
