@@ -40,3 +40,22 @@
 .read-the-docs {
   color: #888;
 }
+
+/* 
+loop stacks */
+.icon-container {
+  white-space: nowrap;
+  overflow: hidden;
+}
+.icon {
+  display: inline-block;
+  animation: scrollIcons 30s linear infinite;
+}
+@keyframes scrollIcons {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

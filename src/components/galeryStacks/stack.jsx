@@ -8,7 +8,7 @@ const stack = StacksJson.map((item) => (
   >
     <img
       src={item.image.src}
-      className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+      className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 icon"
       alt="..."
     />
   </div>

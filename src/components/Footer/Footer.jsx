@@ -22,10 +22,10 @@ const Footer = () => {
                 href="#"
                 className="mr-4 hover:underline md:mr-6 "
               >
-                About
+                Sobre mim
               </a>
             </li>
-            <li>
+            {/*  <li>
               <a
                 href="#"
                 className="mr-4 hover:underline md:mr-6"
@@ -40,13 +40,13 @@ const Footer = () => {
               >
                 Licensing
               </a>
-            </li>
+            </li> */}
             <li>
               <a
                 href="#"
                 className="hover:underline"
               >
-                Contact
+                Contato
               </a>
             </li>
           </ul>
@@ -55,12 +55,12 @@ const Footer = () => {
         <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
           © 2023{" "}
           <a
-            href="https://flowbite.com/"
+            href="#"
             className="hover:underline"
           >
-            Flowbite™
+            Tone Lopes.{" "}
           </a>
-          . All Rights Reserved.
+          Todos os Direitos Reservados.
         </span>
       </div>
     </footer>

@@ -1,11 +1,12 @@
 import React, { useState } from "react";
-import Projects from "../projects/Projects";
+import Projects from "./CardProject";
 
 const TabsProject = () => {
   const [activeTab, setActiveTab] = useState("tab1"); // Estado para rastrear a guia ativa
 
   return (
     <>
+      <h2 className="text-2xl font-bold dark:text-white pt-8">Meus Projetos</h2>
       <div className="mb-4 border-b border-gray-200 dark:border-gray-700">
         <ul
           className="flex flex-wrap -mb-px text-sm font-medium text-center"
@@ -76,14 +77,14 @@ const TabsProject = () => {
           </li>
         </ul>
       </div>
-      <div id="default-tab-content">
+      <div id="default-tab-content ">
         <div
-          className="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800"
+          className=" hidden flex flex-col items-center p-4 rounded-lg bg-gray-50 dark:bg-gray-800 "
           id="profile"
           role="tabpanel"
           aria-labelledby="profile-tab"
         >
-          <p className="text-sm text-gray-500 dark:text-gray-400">
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-5 text-left">
             This is some placeholder content the{" "}
             <strong className="font-medium text-gray-800 dark:text-white">Profile tab's associated content</strong>.
             Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes
@@ -92,12 +93,12 @@ const TabsProject = () => {
           <Projects />
         </div>
         <div
-          className="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800"
+          className="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800 flex flex-col"
           id="dashboard"
           role="tabpanel"
           aria-labelledby="dashboard-tab"
         >
-          <p className="text-sm text-gray-500 dark:text-gray-400">
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-5">
             This is some placeholder content the{" "}
             <strong className="font-medium text-gray-800 dark:text-white">Dashboard tab's associated content</strong>.
             Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes
@@ -105,12 +106,12 @@ const TabsProject = () => {
           </p>
         </div>
         <div
-          className="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800"
+          className="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800 flex flex-col"
           id="settings"
           role="tabpanel"
           aria-labelledby="settings-tab"
         >
-          <p className="text-sm text-gray-500 dark:text-gray-400">
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-5">
             This is some placeholder content the{" "}
             <strong className="font-medium text-gray-800 dark:text-white">Settings tab's associated content</strong>.
             Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes
@@ -118,12 +119,12 @@ const TabsProject = () => {
           </p>
         </div>
         <div
-          className="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800"
+          className="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800 flex flex-col"
           id="contacts"
           role="tabpanel"
           aria-labelledby="contacts-tab"
         >
-          <p className="text-sm text-gray-500 dark:text-gray-400">
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-5">
             This is some placeholder content the{" "}
             <strong className="font-medium text-gray-800 dark:text-white">Contacts tab's associated content</strong>.
             Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes

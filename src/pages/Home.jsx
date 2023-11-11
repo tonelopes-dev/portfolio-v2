@@ -3,7 +3,7 @@ import Header from "../components/comuns/Header";
 import GaleryStacks from "../components/galeryStacks/GaleryStacks";
 import AboutMe from "../components/aboutMe/AboutMe";
 import Banner from "../components/banner/Banner";
-import Projects from "../components/projects/Projects";
+import Projects from "../components/TabsProject/CardProject";
 import Footer from "../components/Footer/Footer";
 import Timeline from "../components/timelime/Timeline";
 import TabsProject from "../components/TabsProject/TabsProject";
