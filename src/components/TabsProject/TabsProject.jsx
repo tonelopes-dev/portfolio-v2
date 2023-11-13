@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Projects from "./CardProject";
+import CardProjects from "./CardProject";
 
 const TabsProject = () => {
   const [activeTab, setActiveTab] = useState("tab1"); // Estado para rastrear a guia ativa
@@ -27,7 +28,7 @@ const TabsProject = () => {
               aria-controls="profile"
               aria-selected="false"
             >
-              Profile
+              Frontend
             </button>
           </li>
           <li
@@ -43,7 +44,7 @@ const TabsProject = () => {
               aria-controls="dashboard"
               aria-selected="false"
             >
-              Dashboard
+              Backend
             </button>
           </li>
           <li
@@ -59,7 +60,7 @@ const TabsProject = () => {
               aria-controls="settings"
               aria-selected="false"
             >
-              Settings
+              Fullstack
             </button>
           </li>
           <li role="presentation">
@@ -79,18 +80,32 @@ const TabsProject = () => {
       </div>
       <div id="default-tab-content ">
         <div
-          className=" hidden flex flex-col items-center p-4 rounded-lg bg-gray-50 dark:bg-gray-800 "
+          className=" hidden flex flex-wrap gap-3 items-start p-4 rounded-lg bg-gray-50 dark:bg-gray-800 items-stretch"
           id="profile"
           role="tabpanel"
           aria-labelledby="profile-tab"
         >
-          <p className="text-sm text-gray-500 dark:text-gray-400 mb-5 text-left">
-            This is some placeholder content the{" "}
-            <strong className="font-medium text-gray-800 dark:text-white">Profile tab's associated content</strong>.
-            Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes
-            to control the content visibility and styling.
-          </p>
-          <Projects />
+          <CardProjects
+            imgPath="https://raw.githubusercontent.com/tonelopes-dev/arvore-de-links-mode-dark-and-light-/main/.github/preview.png"
+            titleProject="DevLinks"
+            description="Minicurso exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB."
+            linkGithub={"https://github.com/tonelopes-dev/arvore-de-links-mode-dark-and-light-"}
+            linkProject={"https://tonelopes-dev.github.io/arvore-de-links-mode-dark-and-light-/"}
+          />
+          <CardProjects
+            imgPath="https://raw.githubusercontent.com/tonelopes-dev/gerador-de-senhas/main/assets/projeto-gerador-de-senha.jpg"
+            titleProject="Gerador de Senha"
+            description="Minicurso exclusivo e gratuito, promovido pelo Sujeito Programador para ensino de tecnologias WEB."
+            linkGithub={"https://github.com/tonelopes-dev/gerador-de-senhas"}
+            linkProject={"https://tonelopes-dev.github.io/gerador-de-senhas/"}
+          />
+          <CardProjects
+            imgPath="https://raw.githubusercontent.com/tonelopes-dev/projeto-android/main/imagens/preview.png"
+            titleProject="História do Android"
+            description='Projeto exclusivo e gratuito, promovido pelo "Curso em Vídeo" para ensino de tecnologias WEB.'
+            linkGithub={"https://github.com/tonelopes-dev/projeto-android"}
+            linkProject={"https://tonelopes-dev.github.io/projeto-android/"}
+          />
         </div>
         <div
           className="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800 flex flex-col"

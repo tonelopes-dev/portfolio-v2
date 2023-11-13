@@ -3,8 +3,6 @@ import React from "react";
 import CardTimeline from "./cardTimeline/CardTimeline";
 import TimeAndLocal from "./cardTimeline/TimeAndLocal";
 import IconTimeLine from "./cardTimeline/iconTimeline";
-import HardSkillsTimeline from "./cardTimeline/HardSkillsTimeline";
-import cursos from "../../cursos/dadosDosCursos";
 
 const ListarCursos = ({ itens }) => {
   return (
