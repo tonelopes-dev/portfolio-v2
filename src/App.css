@@ -51,6 +51,13 @@ loop stacks */
   display: inline-block;
   animation: scrollIcons 30s linear infinite;
 }
+.absolute-center {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 @keyframes scrollIcons {
   from {
     transform: translateX(100%);

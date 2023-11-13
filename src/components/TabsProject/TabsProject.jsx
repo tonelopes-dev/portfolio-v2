@@ -7,20 +7,17 @@ const TabsProject = () => {
 
   return (
     <>
-      <h2 className="text-2xl font-bold dark:text-white pt-8">Meus Projetos</h2>
+      <h2 className="pt-8 text-2xl font-bold dark:text-white">Meus Projetos</h2>
       <div className="mb-4 border-b border-gray-200 dark:border-gray-700">
         <ul
-          className="flex flex-wrap -mb-px text-sm font-medium text-center"
+          className="-mb-px flex flex-wrap text-center text-sm font-medium"
           id="default-tab"
           data-tabs-toggle="#default-tab-content"
           role="tablist"
         >
-          <li
-            className="mr-2"
-            role="presentation"
-          >
+          <li className="mr-2" role="presentation">
             <button
-              className="inline-block p-4 border-b-2 rounded-t-lg"
+              className="inline-block rounded-t-lg border-b-2 p-4"
               id="profile-tab"
               data-tabs-target="#profile"
               type="button"
@@ -31,12 +28,9 @@ const TabsProject = () => {
               Frontend
             </button>
           </li>
-          <li
-            className="mr-2"
-            role="presentation"
-          >
+          <li className="mr-2" role="presentation">
             <button
-              className="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+              className="inline-block rounded-t-lg border-b-2 p-4 hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300"
               id="dashboard-tab"
               data-tabs-target="#dashboard"
               type="button"
@@ -47,12 +41,9 @@ const TabsProject = () => {
               Backend
             </button>
           </li>
-          <li
-            className="mr-2"
-            role="presentation"
-          >
+          <li className="mr-2" role="presentation">
             <button
-              className="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+              className="inline-block rounded-t-lg border-b-2 p-4 hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300"
               id="settings-tab"
               data-tabs-target="#settings"
               type="button"
@@ -65,7 +56,7 @@ const TabsProject = () => {
           </li>
           <li role="presentation">
             <button
-              className="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+              className="inline-block rounded-t-lg border-b-2 p-4 hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300"
               id="contacts-tab"
               data-tabs-target="#contacts"
               type="button"
@@ -80,7 +71,7 @@ const TabsProject = () => {
       </div>
       <div id="default-tab-content ">
         <div
-          className=" hidden flex flex-wrap gap-3 items-start p-4 rounded-lg bg-gray-50 dark:bg-gray-800 items-stretch"
+          className=" flex hidden flex-wrap items-start items-stretch gap-3 rounded-lg bg-gray-50 p-4 dark:bg-gray-800"
           id="profile"
           role="tabpanel"
           aria-labelledby="profile-tab"
@@ -89,8 +80,12 @@ const TabsProject = () => {
             imgPath="https://raw.githubusercontent.com/tonelopes-dev/arvore-de-links-mode-dark-and-light-/main/.github/preview.png"
             titleProject="DevLinks"
             description="Minicurso exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB."
-            linkGithub={"https://github.com/tonelopes-dev/arvore-de-links-mode-dark-and-light-"}
-            linkProject={"https://tonelopes-dev.github.io/arvore-de-links-mode-dark-and-light-/"}
+            linkGithub={
+              "https://github.com/tonelopes-dev/arvore-de-links-mode-dark-and-light-"
+            }
+            linkProject={
+              "https://tonelopes-dev.github.io/arvore-de-links-mode-dark-and-light-/"
+            }
           />
           <CardProjects
             imgPath="https://raw.githubusercontent.com/tonelopes-dev/gerador-de-senhas/main/assets/projeto-gerador-de-senha.jpg"
@@ -108,42 +103,51 @@ const TabsProject = () => {
           />
         </div>
         <div
-          className="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800 flex flex-col"
+          className="flex hidden flex-col rounded-lg bg-gray-50 p-4 dark:bg-gray-800"
           id="dashboard"
           role="tabpanel"
           aria-labelledby="dashboard-tab"
         >
-          <p className="text-sm text-gray-500 dark:text-gray-400 mb-5">
+          <p className="mb-5 text-sm text-gray-500 dark:text-gray-400">
             This is some placeholder content the{" "}
-            <strong className="font-medium text-gray-800 dark:text-white">Dashboard tab's associated content</strong>.
-            Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes
-            to control the content visibility and styling.
+            <strong className="font-medium text-gray-800 dark:text-white">
+              Dashboard tab's associated content
+            </strong>
+            . Clicking another tab will toggle the visibility of this one for
+            the next. The tab JavaScript swaps classes to control the content
+            visibility and styling.
           </p>
         </div>
         <div
-          className="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800 flex flex-col"
+          className="flex hidden flex-col rounded-lg bg-gray-50 p-4 dark:bg-gray-800"
           id="settings"
           role="tabpanel"
           aria-labelledby="settings-tab"
         >
-          <p className="text-sm text-gray-500 dark:text-gray-400 mb-5">
+          <p className="mb-5 text-sm text-gray-500 dark:text-gray-400">
             This is some placeholder content the{" "}
-            <strong className="font-medium text-gray-800 dark:text-white">Settings tab's associated content</strong>.
-            Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes
-            to control the content visibility and styling.
+            <strong className="font-medium text-gray-800 dark:text-white">
+              Settings tab's associated content
+            </strong>
+            . Clicking another tab will toggle the visibility of this one for
+            the next. The tab JavaScript swaps classes to control the content
+            visibility and styling.
           </p>
         </div>
         <div
-          className="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800 flex flex-col"
+          className="flex hidden flex-col rounded-lg bg-gray-50 p-4 dark:bg-gray-800"
           id="contacts"
           role="tabpanel"
           aria-labelledby="contacts-tab"
         >
-          <p className="text-sm text-gray-500 dark:text-gray-400 mb-5">
+          <p className="mb-5 text-sm text-gray-500 dark:text-gray-400">
             This is some placeholder content the{" "}
-            <strong className="font-medium text-gray-800 dark:text-white">Contacts tab's associated content</strong>.
-            Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes
-            to control the content visibility and styling.
+            <strong className="font-medium text-gray-800 dark:text-white">
+              Contacts tab's associated content
+            </strong>
+            . Clicking another tab will toggle the visibility of this one for
+            the next. The tab JavaScript swaps classes to control the content
+            visibility and styling.
           </p>
         </div>
       </div>
