@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Projects from "./CardProject";
+
 import CardProjects from "./CardProject";
 
 const TabsProject = () => {
@@ -71,7 +71,7 @@ const TabsProject = () => {
       </div>
       <div id="default-tab-content ">
         <div
-          className=" flex hidden flex-wrap items-start items-stretch gap-3 rounded-lg bg-gray-50 p-4 dark:bg-gray-800"
+          className=" flex hidden flex-wrap justify-around  gap-3 rounded-lg bg-gray-50 p-4 dark:bg-gray-800"
           id="profile"
           role="tabpanel"
           aria-labelledby="profile-tab"
@@ -101,7 +101,113 @@ const TabsProject = () => {
             linkGithub={"https://github.com/tonelopes-dev/projeto-android"}
             linkProject={"https://tonelopes-dev.github.io/projeto-android/"}
           />
+          <CardProjects
+            imgPath="https://raw.githubusercontent.com/tonelopes-dev/NLW-Projeto/main/assets/preview.jpg"
+            titleProject="Habits"
+            description="NLW é um evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB"
+            linkGithub={"https://github.com/tonelopes-dev/NLW-Projeto"}
+            linkProject={"https://tonelopes-dev.github.io/NLW-Projeto/"}
+          />
+          <CardProjects
+            imgPath="https://raw.githubusercontent.com/tonelopes-dev/pokenext/main/assets/capa-pokedex.png"
+            titleProject="Pokenext"
+            description="Esse foi um projeto de estudo do Framework Next.JS."
+            linkGithub={"https://github.com/tonelopes-dev/pokenext"}
+            linkProject={"https://pokedex-nextjs-delta.vercel.app/"}
+          />
+          <CardProjects
+            imgPath="https://raw.githubusercontent.com/tonelopes-dev/calculadora-rocketseat/main/assets/img/projeto-BoraCodar-calculadora-.jpg"
+            titleProject="Calculadora"
+            description="#boraCodar são desafios semanais, promovido pela Rocketseat para ensino de tecnologias WEB."
+            linkGithub={
+              "https://github.com/tonelopes-dev/calculadora-rocketseat"
+            }
+            linkProject={"https://tonelopes.github.io/calculadora-rocketseat/"}
+          />
+          <CardProjects
+            imgPath="https://raw.githubusercontent.com/tonelopes-dev/explore-03-treinos-exclusivos/main/images/print-project.png"
+            titleProject="Treinos exclusivos"
+            description="Este é um projeto da RocketSeat do programa Explore composto por 20 módulos."
+            linkGithub={
+              "https://github.com/tonelopes-dev/explore-03-treinos-exclusivos"
+            }
+            linkProject={"https://explore-03-treinos-exclusivos.vercel.app/"}
+          />
+          <CardProjects
+            imgPath="https://raw.githubusercontent.com/tonelopes-dev/explorer-desafio-04-recriando-layout/main/images/print-project.png"
+            titleProject="Desafio avançado - Recriando layout "
+            description="Realizei o desafio proposto durante o programa Explore da RocketSeat, que consistia recriar um layout enviado pelo figma."
+            linkGithub={
+              "https://github.com/tonelopes-dev/explorer-desafio-04-recriando-layout"
+            }
+            linkProject={
+              "https://explorer-desafio-04-recriando-layout.vercel.app/"
+            }
+          />
+          <CardProjects
+            imgPath="https://raw.githubusercontent.com/tonelopes-dev/explorer-desafio-05-formulario-crie-seu-evento/main/images/print-project.png"
+            titleProject='Projeto de um formulário: "Crie seu Evento"'
+            description="Esse projeto foi desenvolvido durante uma aula com o objetivo de aprender sobre todos os campos de entrada de um formulário."
+            linkGithub={
+              "https://github.com/tonelopes-dev/explorer-desafio-05-formulario-crie-seu-evento"
+            }
+            linkProject={
+              "https://explorer-desafio-05-formulario-crie-seu-evento.vercel.app/"
+            }
+          />
+          <CardProjects
+            imgPath="https://raw.githubusercontent.com/tonelopes-dev/explorer-desafio-09-mobile-first/main/assets/capa-grid-animacoes-css.png"
+            titleProject="Space Cream Desktop - Grid com Animações"
+            description="Esse projeto foi desenvolvido durante uma aula com o objetivo de aprender sobre animações CSS avançadas e o conceito de mobile"
+            linkGithub={
+              "https://github.com/tonelopes-dev/explorer-desafio-09-mobile-first"
+            }
+            linkProject={"https://explorer-desafio-09-mobile-first.vercel.app/"}
+          />
+          <CardProjects
+            imgPath="https://raw.githubusercontent.com/tonelopes-dev/portfolio/main/assets/img-telas/print-portfolio-tela-dark.jpg"
+            titleProject="Portfolio V1.0"
+            description="Bem-vindo a primeira versão do meu site pessoal de desenvolvimento web! Aqui, você encontrará uma seleção de projetos de front-end que desenvolvi utilizando algumas das tecnologias mais recentes e avançadas, tais como HTML, CSS, JavaScript, jQuery, ReactJS e Bootstrap."
+            linkGithub={"https://github.com/tonelopes-dev/portfolio"}
+            linkProject={"https://tonelopes-dev.github.io/portfolio/"}
+          />
+          <CardProjects
+            imgPath="https://raw.githubusercontent.com/tonelopes-dev/mylinks/main/assets/img/print-project/projeto-mylinks.jpg"
+            titleProject="Todos os meus links em um só lugar."
+            description="A árvore de links é um projeto que reune todos os links em um só lugar, como um cartão de visitas online."
+            linkGithub={"https://github.com/tonelopes-dev/mylinks"}
+            linkProject={"https://tonelopes-dev.github.io/mylinks/"}
+          />
+          <CardProjects
+            imgPath="https://raw.githubusercontent.com/tonelopes-dev/jogo-da-memoria/main/images/print-project/projeto-jogo-da-memoria.jpg"
+            titleProject="Jogo da Memória com Animações."
+            description="O Jogo da memória foi desenvolvido pelo Curso ProgramadorBR para fins educacionais."
+            linkGithub={"https://github.com/tonelopes-dev/jogo-da-memoria"}
+            linkProject={"https://tonelopes-dev.github.io/jogo-da-memoria/"}
+          />
+          <CardProjects
+            imgPath="https://raw.githubusercontent.com/tonelopes-dev/snapweather/main/assets/img/projeto-snapweather.jpg"
+            titleProject="Projeto SnapWeather"
+            description="O snapwaether é um aplicação que usa uma API do OpenWeather para verificar o clima das cidades solicitadas."
+            linkGithub={"https://github.com/tonelopes-dev/snapweather"}
+            linkProject={"https://tonelopes-dev.github.io/snapweather/"}
+          />
+          <CardProjects
+            imgPath="https://raw.githubusercontent.com/tonelopes-dev/To-Do-App/main/img/projeto-todo-app.jpg"
+            titleProject="Projeto To Do App (Tarefas)"
+            description="Este é um aplicativo para criação e organização de tarefas diárias. Conhecido como To-do-List."
+            linkGithub={"https://github.com/tonelopes-dev/To-Do-App"}
+            linkProject={"https://tonelopes-dev.github.io/To-Do-App/"}
+          />
+          <CardProjects
+            imgPath="https://raw.githubusercontent.com/tonelopes-dev/food-peek/main/assets/projeto-LP-Sanduiche.jpg"
+            titleProject="Landing Page Sanduíche"
+            description="A Landing Page Sanduíche foi desenvolvida para estudos de Responsividade usando as tecnologias acima."
+            linkGithub={"https://github.com/tonelopes-dev/food-peek"}
+            linkProject={"https://tonelopes-dev.github.io/food-peek/"}
+          />
         </div>
+
         <div
           className="flex hidden flex-col rounded-lg bg-gray-50 p-4 dark:bg-gray-800"
           id="dashboard"

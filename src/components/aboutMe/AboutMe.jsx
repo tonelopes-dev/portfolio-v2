@@ -5,9 +5,9 @@ const AboutMe = () => (
     className="mb-10 flex	flex-wrap items-start justify-center gap-16 pt-5"
     id="aboutme"
   >
-    <div className="sticky top-0 pt-5">
+    <div className="md:h-screen">
       <img
-        className="max-w-64   max-h-64 rounded-full max-md:mt-6"
+        className="max-w-64 sticky top-0 max-h-64 rounded-full pt-5 max-md:mt-6"
         src="./src/assets/foto-tone.png"
         alt="image description"
       />
