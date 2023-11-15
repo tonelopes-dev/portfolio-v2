@@ -23,52 +23,46 @@ const GaleryStacks = () => {
 
   return (
     <>
-      <div className="flex flex-row gap-10 shadow-md sm:rounded-b-lg  my-5 p-3 icon-container">
-        <div className="flex flex-row icon gap-10 h-20 w-auto rounded-lg ">
-          <img
-            className="h-20 w-20 rounded-lg "
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
-          />
+      <div className="icon-container flex flex-row gap-10   bg-white p-3 py-5  shadow-md sm:rounded-b-lg">
+        <div
+          className="icon flex h-20 w-auto flex-row items-center  gap-10 rounded-lg 
+        "
+        >
+          <i className="devicon-html5-plain-wordmark colored text-6xl"></i>
 
-          <img
-            className="h-20 w-20 rounded-lg "
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
-          />
+          <i className="devicon-css3-plain-wordmark colored text-6xl"></i>
 
-          <img
-            className="h-20 w-20 rounded-lg "
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
-            alt=""
-          />
+          <i className="devicon-javascript-plain colored    text-6xl"></i>
 
-          <img
-            className="h-20 w-20 rounded-lg "
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
-            alt=""
-          />
+          <i className="devicon-typescript-plain colored  text-6xl "></i>
 
-          <img
-            className="h-20 w-20 rounded-lg "
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
-            alt=""
-          />
+          <i className="devicon-git-plain-wordmark colored text-6xl"></i>
 
-          <img
-            className="h-20 w-20 rounded-lg"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg"
-            alt=""
-          />
+          <i className="devicon-github-original-wordmark colored text-6xl"></i>
 
-          <img
-            className="h-20 w-20 rounded-lg "
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
-            alt=""
-          />
+          <i className="devicon-bootstrap-plain-wordmark colored text-6xl"></i>
 
-          <i className="devicon-javascript-plain colored text-6xl h-20 w-20 "></i>
-          <i className="devicon-nextjs-original-wordmark colored text-6xl	"></i>
+          <i className="devicon-sass-original colored text-6xl"></i>
+
+          <i className="devicon-tailwindcss-original-wordmark colored text-9xl"></i>
+
+          <i className="devicon-nodejs-plain-wordmark colored text-9xl"></i>
+
+          <i className="devicon-express-original-wordmark colored text-8xl"></i>
+
+          <i className="devicon-sqlite-plain-wordmark colored text-8xl"></i>
+
+          <i className="devicon-postgresql-plain-wordmark colored text-6xl"></i>
+
+          <i className="devicon-mongodb-plain-wordmark colored text-6xl"></i>
+
+          <i className="devicon-firebase-plain-wordmark colored text-6xl"></i>
 
           <i className="devicon-react-original-wordmark colored text-6xl"></i>
+
+          <i className="devicon-nextjs-original-wordmark colored text-8xl	"></i>
+
+          <i className="devicon-nestjs-plain-wordmark colored text-8xl"></i>
         </div>
       </div>
     </>
@@ -76,12 +70,3 @@ const GaleryStacks = () => {
 };
 
 export default GaleryStacks;
-
-{
-  /* <div>
-        <img
-          className="h-20 w-20 rounded-lg"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg"
-        />
-      </div> */
-}

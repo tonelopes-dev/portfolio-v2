@@ -4,10 +4,10 @@ import Logo from "./Logo";
 const Header = () => {
   return (
     <div>
-      <nav className="border-gray-200 bg-white dark:bg-gray-900">
+      <nav className="border-b-2 border-gray-200 bg-white shadow dark:bg-gray-900">
         <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
           <a href="https://flowbite.com/" className="flex items-center">
-            <Logo  />
+            <Logo />
             <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
               Tone Lopes
             </span>
@@ -36,12 +36,15 @@ const Header = () => {
               />
             </svg>
           </button>
-          <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul className="mt-4 flex flex-col items-center rounded-lg border border-gray-100 bg-gray-50 p-4 font-medium dark:border-gray-700 dark:bg-gray-800 md:mt-0 md:flex-row md:space-x-8 md:border-0 md:bg-white md:p-0 md:dark:bg-gray-900">
+          <div
+            className="hidden w-full bg-transparent md:block md:w-auto"
+            id="navbar-default"
+          >
+            <ul className="mt-4 flex flex-col items-center rounded-lg border border-gray-100  p-4 font-medium dark:border-gray-700 dark:bg-gray-800 md:mt-0 md:flex-row md:space-x-8 md:border-0">
               <li>
                 <a
                   href="#"
-                  className="block rounded bg-blue-700 py-2 pl-3 pr-4 text-white dark:text-white md:bg-transparent md:p-0 md:text-blue-700 md:dark:text-blue-500"
+                  className="block rounded bg-violet-700 py-2 pl-3 pr-4 text-white dark:text-white md:bg-transparent md:p-0 md:text-violet-700 md:dark:text-violet-500"
                   aria-current="page"
                 >
                   Home
@@ -50,7 +53,7 @@ const Header = () => {
               <li>
                 <a
                   href="#aboutme"
-                  className="block rounded py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
+                  className="block rounded py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-violet-700 md:dark:hover:bg-transparent md:dark:hover:text-violet-500"
                 >
                   Sobre mim
                 </a>
@@ -59,7 +62,7 @@ const Header = () => {
               <li>
                 <a
                   href="#"
-                  className="block rounded py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
+                  className="block rounded py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-violet-700 md:dark:hover:bg-transparent md:dark:hover:text-violet-500"
                 >
                   Contato
                 </a>
@@ -68,7 +71,7 @@ const Header = () => {
                 <button
                   id="dropdownDividerButton"
                   data-dropdown-toggle="dropdownDivider"
-                  className="inline-flex items-center rounded-lg bg-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  className="inline-flex items-center rounded-lg bg-violet-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-violet-800 focus:outline-none focus:ring-4 focus:ring-violet-300 dark:bg-violet-600 dark:hover:bg-violet-700 dark:focus:ring-violet-800"
                   type="button"
                 >
                   Projetos{" "}

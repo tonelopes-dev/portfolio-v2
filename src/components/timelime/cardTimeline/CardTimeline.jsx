@@ -3,7 +3,7 @@ import colors from "../../../cursos/coresTagsSkills";
 
 const CardTimeline = ({ image, title, softSkills, hardSkills }) => {
   return (
-    <div className="md:flex md:max-w-full max-w-md  bg-white rounded-xl shadow-md overflow-hidden  item">
+    <div className="item mb-16 max-w-md  overflow-hidden rounded-xl bg-white shadow-md  md:flex md:max-w-full">
       <div className="md:shrink-0">
         <img
           className="h-48 w-full object-cover md:h-full md:w-48"
@@ -14,7 +14,7 @@ const CardTimeline = ({ image, title, softSkills, hardSkills }) => {
       <div className="p-8">
         <a
           href="#"
-          className="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
+          className="mt-1 block text-lg font-medium leading-tight text-black hover:underline"
         >
           {title}
         </a>
@@ -22,10 +22,7 @@ const CardTimeline = ({ image, title, softSkills, hardSkills }) => {
           <ul className="ml-5">
             <>
               {softSkills.map((skill, index) => (
-                <li
-                  key={index}
-                  className="list-disc"
-                >
+                <li key={index} className="list-disc">
                   {skill}
                 </li>
               ))}
@@ -36,7 +33,7 @@ const CardTimeline = ({ image, title, softSkills, hardSkills }) => {
           {hardSkills.map((skill, index) => (
             <span
               key={index}
-              className={`bg-${colors[skill]}-100 text-${colors[skill]}-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-${colors[skill]}-900 dark:text-${colors[skill]}-300 mb-3`}
+              className={`bg-${colors[skill]}-100 text-${colors[skill]}-800 mr-2 rounded px-2.5 py-0.5 text-xs font-medium dark:bg-${colors[skill]}-900 dark:text-${colors[skill]}-300 mb-3`}
             >
               {skill}
             </span>
@@ -48,52 +45,3 @@ const CardTimeline = ({ image, title, softSkills, hardSkills }) => {
 };
 
 export default CardTimeline;
-/* const CardTimeline = ({ image, title, softSkills, hardSkills }) => {
-  return (
-    <div className="max-w-md  bg-white rounded-xl shadow-md overflow-hidden md:max-w-3xl item">
-      <div className="md:flex ">
-        <div className="md:shrink-0">
-          <img
-            className="h-48 w-full object-cover md:h-full md:w-48"
-            src={image}
-            alt="Modern building architecture"
-          />
-        </div>
-        <div className="p-8">
-          <a
-            href="#"
-            className="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
-          >
-            {title}
-          </a>
-          <div className="my-2 text-slate-500">
-            <ul className="ml-5">
-              <>
-                {softSkills.map((skill, index) => (
-                  <li
-                    key={index}
-                    className="list-disc"
-                  >
-                    {skill}
-                  </li>
-                ))}
-              </>
-            </ul>
-          </div>
-
-          {hardSkills.map((skill) => (
-            <span
-              key={color.index}
-              className={`bg-${skill.color}-100 text-${skill.color}-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-${skill.color}-900 dark:text-${skill.color}-300`}
-            >
-              {skill.skill} {/* Acesso à habilidade específica em hard associada ao objeto color 
-            </span>
-          ))}
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default CardTimeline;
-*/

@@ -4,8 +4,10 @@ import ListarCursos from "./ListarCursos";
 
 const Timeline = () => {
   return (
-    <div className="max-w-7xl  pb-5 mb-5">
-      <h2 className="text-2xl font-bold dark:text-white py-8">Timeline Cursos</h2>
+    <div className="my-5 max-w-7xl rounded bg-white">
+      <h2 className="py-8 text-2xl font-bold dark:text-white">
+        Timeline Cursos
+      </h2>
 
       <ListarCursos itens={cursos} />
     </div>

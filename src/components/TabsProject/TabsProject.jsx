@@ -6,9 +6,9 @@ const TabsProject = () => {
   const [activeTab, setActiveTab] = useState("tab1"); // Estado para rastrear a guia ativa
 
   return (
-    <>
-      <h2 className="pt-8 text-2xl font-bold dark:text-white">Meus Projetos</h2>
-      <div className="mb-4 border-b border-gray-200 dark:border-gray-700">
+    <div className=" bg-white pt-8">
+      <h2 className=" text-2xl font-bold dark:text-white">Meus Projetos</h2>
+      <div className=" mb-4 border-b border-gray-200 dark:border-gray-700">
         <ul
           className="-mb-px flex flex-wrap text-center text-sm font-medium"
           id="default-tab"
@@ -257,7 +257,7 @@ const TabsProject = () => {
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

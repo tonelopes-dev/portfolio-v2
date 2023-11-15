@@ -4,6 +4,16 @@
   padding: 2rem;
   text-align: center;
 }
+body {
+  background: rgb(240, 249, 255);
+  background: linear-gradient(
+    203deg,
+    rgba(240, 249, 255, 1) 0%,
+    rgba(240, 249, 255, 1) 0%,
+    rgba(221, 214, 254, 1) 48%,
+    rgba(238, 242, 255, 1) 100%
+  );
+}
 
 .logo {
   height: 6em;
@@ -12,10 +22,10 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #d664ffaa);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #a461fbaa);
 }
 
 @keyframes logo-spin {
