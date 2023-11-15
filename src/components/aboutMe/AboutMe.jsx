@@ -19,8 +19,8 @@ const AboutMe = () => (
           alt="image description"
         />
       </div>
-      <div className="flex-initial px-8 pt-5 md:w-3/6">
-        <p className="text-left text-lg font-normal text-gray-700 dark:text-gray-400 lg:text-xl">
+      <div className="flex-initial border-x-2  px-8 pt-5 md:w-3/6">
+        <p className=" text-left text-lg font-normal text-gray-700 dark:text-gray-400 lg:text-xl">
           Olá! Sou Tone Lopes, sou{" "}
           <strong className="text-violet-800">desenvolvedor de software</strong>{" "}
           com um histórico único no{" "}

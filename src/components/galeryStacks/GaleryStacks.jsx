@@ -23,7 +23,7 @@ const GaleryStacks = () => {
 
   return (
     <>
-      <div className="icon-container flex flex-row gap-10   bg-white p-3 py-5  shadow-md sm:rounded-b-lg">
+      <div className="icon-container flex flex-row gap-10 border-t  bg-gray-50 p-3 py-5  shadow-md sm:rounded-b-lg">
         <div
           className="icon flex h-20 w-auto flex-row items-center  gap-10 rounded-lg 
         "

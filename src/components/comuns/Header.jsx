@@ -6,7 +6,7 @@ const Header = () => {
     <div>
       <nav className="rounded-t bg-violet-200 shadow ">
         <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
-          <a href="https://flowbite.com/" className="flex items-center">
+          <a href="#" className="flex items-center">
             <Logo />
             <span className="self-center whitespace-nowrap text-2xl font-bold text-violet-800">
               Tone Lopes
@@ -40,7 +40,7 @@ const Header = () => {
             className="hidden w-full bg-transparent md:block md:w-auto"
             id="navbar-default"
           >
-            <ul className="mt-4 flex flex-col items-center rounded-lg border border-gray-100  p-4 font-medium dark:border-gray-700 dark:bg-gray-800 md:mt-0 md:flex-row md:space-x-8 md:border-0">
+            <ul className="mt-4 flex flex-col items-center rounded-lg border border-gray-100   font-medium dark:border-gray-700 dark:bg-gray-800 md:mt-0 md:flex-row md:space-x-8 md:border-0">
               <li>
                 <a
                   href="#"
