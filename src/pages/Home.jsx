@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <div className="divide-y shadow-md">
+      <div className="">
         <Banner />
         <GaleryStacks />
       </div>

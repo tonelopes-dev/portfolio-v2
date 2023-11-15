@@ -6,8 +6,8 @@ const TabsProject = () => {
   const [activeTab, setActiveTab] = useState("tab1"); // Estado para rastrear a guia ativa
 
   return (
-    <div className=" bg-white pt-8">
-      <h2 className=" text-2xl font-bold dark:text-white">Meus Projetos</h2>
+    <div className=" rounded-md bg-white pt-8">
+      <h2 className=" text-2xl font-bold text-violet-800 ">Meus Projetos</h2>
       <div className=" mb-4 border-b border-gray-200 dark:border-gray-700">
         <ul
           className="-mb-px flex flex-wrap text-center text-sm font-medium"
@@ -17,13 +17,13 @@ const TabsProject = () => {
         >
           <li className="mr-2" role="presentation">
             <button
-              className="inline-block rounded-t-lg border-b-2 p-4"
+              className="inline-block rounded-t-lg border-b-2 p-4 active:border-violet-800 active:text-violet-800"
               id="profile-tab"
               data-tabs-target="#profile"
               type="button"
               role="tab"
               aria-controls="profile"
-              aria-selected="false"
+              aria-selected="true"
             >
               Frontend
             </button>

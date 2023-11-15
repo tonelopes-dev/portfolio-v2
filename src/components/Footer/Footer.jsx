@@ -4,9 +4,9 @@ import SocialMedia from "../comuns/SocialMedia";
 
 const Footer = () => {
   return (
-    <footer className="m-4 rounded-lg  dark:bg-gray-800">
-      <div className="mx-auto flex w-full max-w-screen-xl justify-center  p-1">
-        {/* <ul className="mt-3 flex flex-wrap items-center text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+    <footer className="rounded-lg  dark:bg-gray-800">
+      {/* <div className="mx-auto flex w-full max-w-screen-xl justify-center  p-1">
+         <ul className="mt-3 flex flex-wrap items-center text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
           <li>
           <a href="#" className="me-4 hover:underline md:me-6">
           Sobre mim
@@ -28,12 +28,12 @@ const Footer = () => {
           </a>
           </li>
           
-        </ul>*/}
-      </div>
+        </ul>
+  </div>*/}
       <SocialMedia />
-      <span className="text-sm text-gray-500 dark:text-gray-400 sm:text-center">
+      <span className="text-sm text-violet-900  sm:text-center">
         © 2023{" "}
-        <a href="#" className="hover:underline">
+        <a href="#" className="font-semibold hover:underline">
           Tone Lopes™
         </a>
         . Todos os Direitos Reservados.

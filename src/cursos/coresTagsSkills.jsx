@@ -8,16 +8,27 @@ const colors = {
   SQLite: "indigo",
   Figma: "red",
   Photoshop: "blue",
-  // Novas palavras e suas cores
   Compreensão: "yellow",
-  Comunicação: "magenta",
+  Comunicação: "pink",
   Design: "yellow",
   Prototipagem: "teal",
   Testes: "violet",
-  Acessibilidade: "silver",
+  Acessibilidade: "green",
   MobileFirst: "purple",
-  Testes: "red",
-  Acessibilidade: "blue",
-  Comunicação: "pink",
+  Lógica: "yellow",
+  API: "blue",
+  SQL: "orange",
+  PostgreSQL: "indigo",
+  Joi: "teal",
+  JavaScript: "yellow",
+  "Desenvolvimento Web": "purple",
+  "Desenvolvimento Mobile": "yellow",
+  "Engenharia de Software": "teal",
+  "Segurança da Informação": "indigo",
+  "Banco de Dados": "pink",
+  "Estrutura de Dados": "purple",
+  "Programação Orientada a Objetos": "teal",
+  Algoritmos: "red", // Adicionado "red" para Algoritmos
 };
+
 export default colors;

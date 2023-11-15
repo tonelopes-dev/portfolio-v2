@@ -11,15 +11,15 @@ const CardTimeline = ({ image, title, softSkills, hardSkills }) => {
           alt="Modern building architecture"
         />
       </div>
-      <div className="p-8">
+      <div className=" pb-3 pl-8 pr-8">
         <a
           href="#"
-          className="mt-1 block text-lg font-medium leading-tight text-black hover:underline"
+          className=" block text-lg font-medium leading-tight text-black hover:underline"
         >
           {title}
         </a>
         <div className="my-2 text-slate-500">
-          <ul className="ml-5">
+          <ul className="mb-5 ml-5">
             <>
               {softSkills.map((skill, index) => (
                 <li key={index} className="list-disc">

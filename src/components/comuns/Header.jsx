@@ -4,11 +4,11 @@ import Logo from "./Logo";
 const Header = () => {
   return (
     <div>
-      <nav className="border-b-2 border-gray-200 bg-white shadow dark:bg-gray-900">
+      <nav className="rounded-t bg-violet-200 shadow ">
         <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
           <a href="https://flowbite.com/" className="flex items-center">
             <Logo />
-            <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
+            <span className="self-center whitespace-nowrap text-2xl font-bold text-violet-800">
               Tone Lopes
             </span>
           </a>

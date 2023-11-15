@@ -7,9 +7,9 @@ import IconTimeLine from "./cardTimeline/IconTimeLine";
 const ListarCursos = ({ itens }) => {
   return (
     <>
-      <ol className="relative border-l border-gray-100 dark:border-gray-700">
+      <ol className="relative rounded-b border-l border-violet-200 bg-white py-5">
         {itens.map((item) => (
-          <li className="mx-6 ml-6 max-w-7xl pb-6  text-left" key={item.local}>
+          <li className="mx-6 ml-6 max-w-7xl text-left" key={item.local}>
             <IconTimeLine />
             <TimeAndLocal time={item.data} local={item.local} />
             <CardTimeline
