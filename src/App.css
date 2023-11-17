@@ -1,7 +1,7 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
 }
 body {
@@ -13,6 +13,26 @@ body {
     rgba(221, 214, 254, 1) 48%,
     rgba(238, 242, 255, 1) 100%
   );
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .logo {
@@ -66,6 +86,14 @@ loop stacks */
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.glow-button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(187, 92, 255, 0.333);
+}
+.project-container {
+  width: 100%; /* ou um tamanho fixo desejado */
 }
 
 @keyframes scrollIcons {

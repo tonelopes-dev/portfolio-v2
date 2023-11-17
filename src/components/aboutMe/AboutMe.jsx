@@ -9,7 +9,7 @@ const AboutMe = () => (
       </h2>
     </div>
     <div
-      className="mb-5 flex	flex-wrap items-start justify-center gap-8 rounded-b bg-white  shadow-md"
+      className="mb-5 flex	flex-wrap items-start justify-evenly gap-8 rounded-b bg-white  shadow-md"
       id="aboutme"
     >
       <div className="my-3 md:h-screen">
