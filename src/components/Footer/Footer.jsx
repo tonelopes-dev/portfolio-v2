@@ -31,7 +31,7 @@ const Footer = () => {
         </ul>
   </div>*/}
       <SocialMedia />
-      <span className="text-sm text-violet-900  sm:text-center">
+      <span className="text-sm text-blue-900  sm:text-center">
         © 2023{" "}
         <a href="#" className="font-semibold hover:underline">
           Tone Lopes™

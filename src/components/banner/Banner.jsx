@@ -7,7 +7,7 @@ const Banner = () => {
       <div className="flex  flex-col-reverse justify-around  	 pt-10 md:flex-row ">
         <div className="flex-initial px-2 md:w-3/6 ">
           <h1 className="lg:text-1xl mb-4 text-left text-3xl font-extrabold text-gray-900 dark:text-white md:text-4xl">
-            <span className="bg-gradient-to-r from-violet-800 to-indigo-500 bg-clip-text text-transparent ">
+            <span className="bg-gradient-to-r from-blue-800 to-indigo-500 bg-clip-text text-transparent ">
               Desenvolvedor Backend
             </span>
           </h1>

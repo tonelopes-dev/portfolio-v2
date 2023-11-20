@@ -15,8 +15,8 @@ const TabsProject = () => {
   const [activeTab, setActiveTab] = useState("tab1"); // Estado para rastrear a guia ativa
 
   return (
-    <div className=" rounded-md bg-violet-200  pt-8">
-      <h2 className=" text-2xl font-bold text-violet-800 ">Meus Projetos</h2>
+    <div className=" rounded-md bg-blue-200  pt-8">
+      <h2 className=" text-2xl font-bold text-blue-800 ">Meus Projetos</h2>
       <div className="  border-b border-gray-200 dark:border-gray-700">
         <ul
           className="mx-14 flex flex-wrap text-center text-sm font-medium"
@@ -26,7 +26,7 @@ const TabsProject = () => {
         >
           <li className="mr-2" role="presentation">
             <button
-              className="inline-block rounded-t-lg border-b-2 p-4 active:border-violet-800 active:text-violet-800"
+              className="inline-block rounded-t-lg border-b-2 p-4 active:border-blue-800 active:text-blue-800"
               id="profile-tab"
               data-tabs-target="#profile"
               type="button"
@@ -150,7 +150,7 @@ const TabsProject = () => {
               className="group absolute start-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
               data-carousel-prev
             >
-              <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-violet-50 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70">
+              <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-blue-50 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70">
                 <svg
                   className="h-4 w-4 text-white rtl:rotate-180 dark:text-gray-800"
                   aria-hidden="true"
@@ -174,7 +174,7 @@ const TabsProject = () => {
               className="group absolute end-0 top-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
               data-carousel-next
             >
-              <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-violet-50 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70">
+              <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-blue-50 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70">
                 <svg
                   className="h-4 w-4 text-white rtl:rotate-180 dark:text-gray-800"
                   aria-hidden="true"

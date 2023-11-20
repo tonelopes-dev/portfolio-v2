@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div>
-      <nav className="rounded-t bg-violet-200 shadow ">
+      <nav className="rounded-t bg-blue-200 shadow ">
         <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
           <Link to="/" className="flex items-center">
             <Logo />
-            <span className="self-center whitespace-nowrap text-2xl font-bold text-violet-800">
+            <span className="self-center whitespace-nowrap text-2xl font-bold text-blue-800">
               Tone Lopes
             </span>
           </Link>
@@ -45,7 +45,7 @@ const Header = () => {
               <li>
                 <Link
                   to="/"
-                  className="block rounded py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100  md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-violet-700 "
+                  className="block rounded py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100  md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 "
                   aria-current="page"
                 >
                   Home
@@ -54,7 +54,7 @@ const Header = () => {
               <li>
                 <Link
                   to="about"
-                  className="block rounded py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100  md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-violet-700 "
+                  className="block rounded py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100  md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 "
                 >
                   Sobre mim
                 </Link>
@@ -63,7 +63,7 @@ const Header = () => {
               {/*  <li>
                 <a
                   href="#"
-                  className="block rounded py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-violet-700 md:dark:hover:bg-transparent md:dark:hover:text-violet-500"
+                  className="block rounded py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-blue-500"
                 >
                   Contato
                 </a>
@@ -72,7 +72,7 @@ const Header = () => {
                 <button
                   id="dropdownDividerButton"
                   data-dropdown-toggle="dropdownDivider"
-                  className="inline-flex items-center rounded-lg bg-violet-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-violet-800 focus:outline-none focus:ring-4 focus:ring-violet-300 dark:bg-violet-600 dark:hover:bg-violet-700 dark:focus:ring-violet-800"
+                  className="inline-flex items-center rounded-lg bg-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   type="button"
                 >
                   Projetos

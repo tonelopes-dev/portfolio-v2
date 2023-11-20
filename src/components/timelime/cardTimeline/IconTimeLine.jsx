@@ -2,9 +2,9 @@ import React from "react";
 
 const IconTimeLine = () => {
   return (
-    <span className="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-violet-100 ring-8 ring-violet-200 ">
+    <span className="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-blue-200 ">
       <svg
-        className="h-2.5 w-2.5 text-violet-800 dark:text-violet-300"
+        className="h-2.5 w-2.5 text-blue-800 dark:text-blue-300"
         aria-hidden="true"
         xmlns="http://www.w3.org/2000/svg"
         fill="currentColor"

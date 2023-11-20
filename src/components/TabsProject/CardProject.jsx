@@ -29,7 +29,7 @@ const CardProjects = ({
         <a
           href={linkGithub}
           target="blank"
-          className="glow-button inline-flex items-center rounded-lg bg-violet-700 px-3 py-2 text-center text-sm font-medium text-white hover:bg-violet-800 hover:text-yellow-300 focus:outline-none focus:ring-4  focus:ring-violet-300"
+          className="glow-button inline-flex items-center rounded-lg bg-blue-700 px-3 py-2 text-center text-sm font-medium text-white hover:bg-blue-800 hover:text-yellow-300 focus:outline-none focus:ring-4  focus:ring-blue-300"
         >
           Github
           <svg
@@ -51,7 +51,7 @@ const CardProjects = ({
         <a
           href={linkProject}
           target="blank"
-          className="glow-button inline-flex items-center rounded-lg bg-violet-700 px-3 py-2 text-center text-sm font-medium text-white hover:bg-violet-800 hover:text-yellow-300 focus:outline-none focus:ring-4  focus:ring-violet-300"
+          className="glow-button inline-flex items-center rounded-lg bg-blue-700 px-3 py-2 text-center text-sm font-medium text-white hover:bg-blue-800 hover:text-yellow-300 focus:outline-none focus:ring-4  focus:ring-blue-300"
         >
           Ver projeto
           <svg
