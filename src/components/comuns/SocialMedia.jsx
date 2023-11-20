@@ -2,7 +2,7 @@ import React from "react";
 
 const SocialMedia = () => {
   return (
-    <div className=" font mb-5 mt-10 flex justify-center  gap-8 rounded-md border-2 border-violet-200  text-lg	">
+    <div className=" font mb-5 flex justify-center gap-8 rounded-md border-2 border-violet-200 bg-white bg-opacity-90  text-lg	">
       <a
         href="#"
         className="p-3 text-violet-900 hover:scale-125 hover:text-violet-700"

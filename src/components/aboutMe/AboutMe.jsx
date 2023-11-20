@@ -9,7 +9,7 @@ const AboutMe = () => (
       </h2>
     </div>
     <div
-      className="mb-5 flex	flex-wrap items-start justify-evenly gap-8 rounded-b bg-white  shadow-md"
+      className="mb-5 flex	flex-wrap items-start justify-evenly gap-8 rounded-b bg-white bg-opacity-90 shadow-md"
       id="aboutme"
     >
       <div className="my-3 md:h-screen">
@@ -20,7 +20,7 @@ const AboutMe = () => (
         />
       </div>
       <div className="flex-initial border-x-2  px-8 pt-5 md:w-3/6">
-        <p className=" text-left text-lg font-normal text-gray-700 dark:text-gray-400 lg:text-xl">
+        <p className="mb-10  text-left text-lg font-normal text-gray-700 dark:text-gray-400 lg:text-xl">
           Olá! Sou Tone Lopes, sou{" "}
           <strong className="text-violet-800">desenvolvedor de software</strong>{" "}
           com um histórico único no{" "}

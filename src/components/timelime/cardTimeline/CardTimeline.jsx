@@ -11,7 +11,7 @@ const CardTimeline = ({ image, title, softSkills, hardSkills }) => {
           alt="Modern building architecture"
         />
       </div>
-      <div className=" pb-3 pl-8 pr-8">
+      <div className=" py-3 pl-8 pr-8">
         <a
           href="#"
           className=" block text-lg font-medium leading-tight text-black hover:underline"

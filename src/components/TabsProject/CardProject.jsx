@@ -8,15 +8,15 @@ const CardProjects = ({
   linkGithub,
 }) => {
   return (
-    <div className="mb-5 box-border w-80  flex-col rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100 hover:shadow">
-      <div className="flex w-full flex-grow flex-col items-center">
+    <div className=" mx-15 mb-5 box-border flex h-full w-80 flex-col justify-between rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100 hover:shadow">
+      <div className="flex  w-full flex-grow flex-col items-center">
         <img
-          className="mb-5 h-56 w-full max-w-full rounded-t-lg object-cover"
+          className="mb-5 max-h-44 w-full max-w-full rounded-t-lg object-cover"
           src={imgPath}
           alt=""
         />
 
-        <div className="w-full p-5 text-center">
+        <div className="w-full  p-5 text-center">
           <h5 className="mb-2 text-left text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             {titleProject}
           </h5>
