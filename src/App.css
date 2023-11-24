@@ -84,14 +84,6 @@ body {
 
 /* 
 loop stacks */
-.icon-container {
-  white-space: nowrap;
-  overflow: hidden;
-}
-.icon {
-  display: inline-block;
-  animation: scrollIcons 30s linear infinite;
-}
 .absolute-center {
   position: absolute;
   top: 55%;
@@ -101,7 +93,7 @@ loop stacks */
 
 .glow-button:hover {
   color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px rgba(187, 92, 255, 0.333);
+  box-shadow: 0 5px 15px rgba(92, 220, 255, 0.333);
 }
 
 .project-container {
@@ -115,4 +107,48 @@ loop stacks */
   to {
     transform: translateX(-100%);
   }
+}
+.icon-container {
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative; /* Adicione esta propriedade */
+}
+
+.icon {
+  display: inline-block;
+  animation: scrollIcons 23s linear infinite;
+}
+
+.bg-galeryStacks {
+  background: linear-gradient(-45deg, #dffff7, #e4e1ff, #e0f1fc, #e8e9ff);
+  background-size: 400% 400%;
+  animation:
+    gradient 5s ease infinite,
+    gradient-paused 20s linear infinite; /* Adicione a segunda animação */
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient-paused {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.icon:hover {
+  animation-play-state: paused; /* Pausa a animação dos ícones ao passar o mouse sobre eles */
 }

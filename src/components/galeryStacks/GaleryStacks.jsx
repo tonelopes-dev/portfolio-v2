@@ -1,4 +1,68 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
+
+const Icon = ({ name, className, size }) => (
+  <i className={`devicon-${name} ${className} text-${size}xl colored`}></i>
+);
+
+const GaleryStacks = () => {
+  const [icons, setIcons] = useState([
+    { name: "html5-plain-wordmark", size: 6 },
+    { name: "css3-plain-wordmark", size: 6 },
+    { name: "javascript-plain", size: 6 },
+    { name: "typescript-plain", size: 6 },
+    { name: "git-plain-wordmark", size: 6 },
+    { name: "github-original-wordmark", size: 6 },
+    { name: "bootstrap-plain-wordmark", size: 6 },
+    { name: "sass-original", size: 6 },
+    { name: "tailwindcss-original-wordmark", size: 9 },
+    { name: "nodejs-plain-wordmark", size: 9 },
+    { name: "express-original-wordmark", size: 8 },
+    { name: "sqlite-plain-wordmark", size: 8 },
+    { name: "postgresql-plain-wordmark", size: 6 },
+    { name: "mongodb-plain-wordmark", size: 6 },
+    { name: "firebase-plain-wordmark", size: 6 },
+    { name: "react-original-wordmark", size: 6 },
+    { name: "nextjs-original-wordmark", size: 8 },
+    { name: "nestjs-plain-wordmark", size: 8 },
+  ]);
+
+  useEffect(() => {
+    const resetAnimation = () => {
+      setIcons((prevIcons) => {
+        const firstIcon = prevIcons.shift();
+        return [...prevIcons, firstIcon];
+      });
+    };
+
+    const iconContainer = document.querySelector(".icon-container");
+    iconContainer.addEventListener("animationend", resetAnimation);
+
+    return () => {
+      iconContainer.removeEventListener("animationend", resetAnimation);
+    };
+  }, []);
+
+  return (
+    <div className="icon-container bg-galeryStacks flex flex-row gap-10 border-t bg-gray-50 p-3 py-5  shadow-md sm:rounded-b-lg">
+      <div className="icon flex h-20 w-auto flex-row items-center  gap-10 rounded-lg">
+        {icons.map((icon, index) => (
+          <Icon
+            key={index}
+            name={icon.name}
+            className="transform-gpu text-center transition-transform hover:scale-105 hover:shadow-md"
+            size={icon.size}
+          />
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default GaleryStacks;
+
+/* import React, { useEffect } from "react";
+
+// import required modules
 
 const GaleryStacks = () => {
   useEffect(() => {
@@ -8,24 +72,24 @@ const GaleryStacks = () => {
     let iconIndex = 0;
 
     function resetAnimation() {
-      // Mova o ícone 1 para o final após ter sido completamente removido da tela
+      // Mova o ícone 1 para o final após a conclusão total da animação
       iconContainer.appendChild(icons[iconIndex]);
       iconIndex = (iconIndex + 1) % icons.length;
     }
 
-    iconContainer.addEventListener("animationiteration", resetAnimation);
+    iconContainer.addEventListener("animationend", resetAnimation);
 
     // Limpe os ouvintes de evento quando o componente é desmontado
     return () => {
-      iconContainer.removeEventListener("animationiteration", resetAnimation);
+      iconContainer.removeEventListener("animationend", resetAnimation);
     };
-  }, []); // O segundo argumento vazio [] garante que o efeito seja executado apenas uma vez durante o montagem do componente
+  }, []); // O segundo argumento vazio [] garante que o efeito seja executado apenas uma vez durante a montagem do componente
 
   return (
     <>
-      <div className="icon-container flex flex-row gap-10 border-t  bg-gray-50 p-3 py-5  shadow-md sm:rounded-b-lg">
+      <div className="icon-container bg-galeryStacks flex flex-row gap-10 border-t bg-gray-50 p-3 py-5  shadow-md sm:rounded-b-lg">
         <div
-          className="icon flex h-20 w-auto flex-row items-center  gap-10 rounded-lg 
+          className="icon  flex h-20 w-auto flex-row items-center  gap-10 rounded-lg 
         "
         >
           <i className="devicon-html5-plain-wordmark colored text-6xl"></i>
@@ -70,3 +134,4 @@ const GaleryStacks = () => {
 };
 
 export default GaleryStacks;
+ */

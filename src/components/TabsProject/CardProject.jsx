@@ -8,10 +8,10 @@ const CardProjects = ({
   linkGithub,
 }) => {
   return (
-    <div className=" mx-15 mb-5 box-border flex h-full w-80 flex-col justify-between rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100 hover:shadow">
+    <div className="mx-15 mb-5 box-border flex h-full w-80 flex-col justify-between rounded-lg border border-gray-200 bg-gray-100 shadow-md hover:bg-white hover:shadow">
       <div className="flex  w-full flex-grow flex-col items-center">
         <img
-          className="mb-5 max-h-44 w-full max-w-full rounded-t-lg object-cover"
+          className="max-h-44 w-full max-w-full rounded-t-lg object-cover"
           src={imgPath}
           alt=""
         />
@@ -20,16 +20,16 @@ const CardProjects = ({
           <h5 className="mb-2 text-left text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             {titleProject}
           </h5>
-          <p className="mb-3 text-left font-normal text-gray-700 dark:text-gray-400">
+          <p className=" text-left font-normal text-gray-700 dark:text-gray-400">
             {description}
           </p>
         </div>
       </div>
-      <div className="mb-3 ml-3 flex w-full flex-row flex-wrap justify-stretch gap-3">
+      <div className=" mb-3 ml-3 flex w-full flex-row flex-wrap justify-stretch gap-3">
         <a
           href={linkGithub}
           target="blank"
-          className="glow-button inline-flex items-center rounded-lg bg-blue-700 px-3 py-2 text-center text-sm font-medium text-white hover:bg-blue-800 hover:text-yellow-300 focus:outline-none focus:ring-4  focus:ring-blue-300"
+          className="glow-button mb-2 me-2 inline-flex items-center  rounded-lg bg-blue-700 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 px-3  py-2  text-center  text-sm  font-medium text-white  hover:bg-blue-800 hover:bg-gradient-to-br hover:text-yellow-100 focus:outline-none  focus:ring-4  focus:ring-blue-300  dark:focus:ring-blue-800"
         >
           Github
           <svg
@@ -51,7 +51,7 @@ const CardProjects = ({
         <a
           href={linkProject}
           target="blank"
-          className="glow-button inline-flex items-center rounded-lg bg-blue-700 px-3 py-2 text-center text-sm font-medium text-white hover:bg-blue-800 hover:text-yellow-300 focus:outline-none focus:ring-4  focus:ring-blue-300"
+          className="glow-button mb-2 me-2 inline-flex items-center  rounded-lg bg-blue-700 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 px-3  py-2  text-center  text-sm  font-medium text-white  hover:bg-blue-800 hover:bg-gradient-to-br hover:text-yellow-100 focus:outline-none  focus:ring-4  focus:ring-blue-300  dark:focus:ring-blue-800"
         >
           Ver projeto
           <svg

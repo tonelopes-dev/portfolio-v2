@@ -1,7 +1,4 @@
 import React, { useState } from "react";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
-
-import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
@@ -9,14 +6,15 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import CardProjects from "./CardProject";
-import CarouselFront from "./frontEndProjects/CarouselFront";
+import CarouselFront from "./CarouselFront";
+import CarouselBack from "./CarouselBack";
 
 const TabsProject = () => {
   const [activeTab, setActiveTab] = useState("tab1"); // Estado para rastrear a guia ativa
 
   return (
-    <div className=" rounded-md bg-blue-200  pt-8">
-      <h2 className=" text-2xl font-bold text-blue-800 ">Meus Projetos</h2>
+    <div className=" rounded-md bg-blue-400  pt-8">
+      <h2 className=" text-2xl font-bold text-white ">Meus Projetos</h2>
       <div className="  border-b border-gray-200 dark:border-gray-700">
         <ul
           className="mx-14 flex flex-wrap text-center text-sm font-medium"
@@ -26,7 +24,7 @@ const TabsProject = () => {
         >
           <li className="mr-2" role="presentation">
             <button
-              className="inline-block rounded-t-lg border-b-2 p-4 active:border-blue-800 active:text-blue-800"
+              className="inline-block rounded-t-lg border-b-2 p-4 text-white active:border-blue-800 md:text-lg "
               id="profile-tab"
               data-tabs-target="#profile"
               type="button"
@@ -39,7 +37,7 @@ const TabsProject = () => {
           </li>
           <li className="mr-2" role="presentation">
             <button
-              className="inline-block rounded-t-lg border-b-2 p-4 hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300"
+              className="inline-block rounded-t-lg border-b-2 p-4 text-white hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300 md:text-lg"
               id="dashboard-tab"
               data-tabs-target="#dashboard"
               type="button"
@@ -52,7 +50,7 @@ const TabsProject = () => {
           </li>
           <li className="mr-2" role="presentation">
             <button
-              className="inline-block rounded-t-lg border-b-2 p-4 hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300"
+              className="inline-block rounded-t-lg border-b-2 p-4 text-white hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300 md:text-lg"
               id="settings-tab"
               data-tabs-target="#settings"
               type="button"
@@ -65,7 +63,7 @@ const TabsProject = () => {
           </li>
           <li role="presentation">
             <button
-              className="inline-block rounded-t-lg border-b-2 p-4 hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300"
+              className="inline-block rounded-t-lg border-b-2 p-4 text-white hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300 md:text-lg"
               id="contacts-tab"
               data-tabs-target="#contacts"
               type="button"
@@ -93,7 +91,9 @@ const TabsProject = () => {
           id="dashboard"
           role="tabpanel"
           aria-labelledby="dashboard-tab"
-        ></div>
+        >
+          <CarouselBack className="md:h-full" />
+        </div>
         <div
           className="flex flex-col rounded-lg bg-gray-50 p-4 dark:bg-gray-800"
           id="settings"

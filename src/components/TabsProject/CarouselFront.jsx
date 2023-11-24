@@ -10,7 +10,7 @@ import "swiper/swiper-bundle.css";
 
 // import required modules
 import { Pagination, Navigation, Scrollbar, A11y } from "swiper/modules";
-import CardProjects from "../CardProject";
+import CardProjects from "./CardProject";
 import { useState } from "react";
 
 const CarouselFront = () => {
@@ -64,14 +64,14 @@ const CarouselFront = () => {
             slidesPerView: 2,
             spaceBetween: 40,
           },
-          1024: {
+          1124: {
             centeredSlides: false,
             slidesPerView: 3,
-            spaceBetween: 50,
+            spaceBetween: 30,
           },
         }}
         modules={[Pagination, Navigation]}
-        className="mySwiper px-7"
+        className="mySwiper px-7 py-5"
       >
         <SwiperSlide className="w-auto">
           <CardProjects

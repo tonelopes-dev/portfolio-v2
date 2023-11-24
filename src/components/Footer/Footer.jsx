@@ -4,7 +4,7 @@ import SocialMedia from "../comuns/SocialMedia";
 
 const Footer = () => {
   return (
-    <footer className="rounded-lg  dark:bg-gray-800">
+    <footer className="rounded-lg  dark:bg-blue-400">
       {/* <div className="mx-auto flex w-full max-w-screen-xl justify-center  p-1">
          <ul className="mt-3 flex flex-wrap items-center text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
           <li>
@@ -31,7 +31,7 @@ const Footer = () => {
         </ul>
   </div>*/}
       <SocialMedia />
-      <span className="text-sm text-blue-900  sm:text-center">
+      <span className="text-sm text-white  sm:text-center">
         © 2023{" "}
         <a href="#" className="font-semibold hover:underline">
           Tone Lopes™
