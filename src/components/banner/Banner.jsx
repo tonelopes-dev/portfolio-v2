@@ -1,7 +1,7 @@
 import React from "react";
-import ButtonLinkedin from "../Comuns/ButtonLinkedin";
-import ButtonGithub from "../Comuns/ButtonGithub";
-import ButtonDownloadCV from "../comuns/ButtonDownloadCV";
+import ButtonLinkedin from "/src/components/comuns/ButtonLinkedin";
+import ButtonGithub from "/src/components/comuns/ButtonLinkedin";
+import ButtonDownloadCV from "/src/components/comuns/ButtonLinkedin";
 
 const Banner = () => {
   return (
