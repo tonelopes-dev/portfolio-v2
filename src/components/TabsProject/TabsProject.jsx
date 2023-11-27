@@ -48,7 +48,7 @@ const TabsProject = () => {
               Backend
             </button>
           </li>
-          <li className="mr-2" role="presentation">
+          {/* <li className="mr-2" role="presentation">
             <button
               className="inline-block rounded-t-lg border-b-2 p-4 text-white hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300 md:text-lg"
               id="settings-tab"
@@ -60,8 +60,8 @@ const TabsProject = () => {
             >
               Fullstack
             </button>
-          </li>
-          <li role="presentation">
+          </li> */}
+          {/* <li role="presentation">
             <button
               className="inline-block rounded-t-lg border-b-2 p-4 text-white hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300 md:text-lg"
               id="contacts-tab"
@@ -73,7 +73,7 @@ const TabsProject = () => {
             >
               Contacts
             </button>
-          </li>
+          </li> */}
         </ul>
       </div>
       <div id="default-tab-content">
@@ -94,7 +94,7 @@ const TabsProject = () => {
         >
           <CarouselBack className="md:h-full" />
         </div>
-        <div
+        {/* <div
           className="flex flex-col rounded-lg bg-gray-50 p-4 dark:bg-gray-800"
           id="settings"
           role="tabpanel"
@@ -194,15 +194,15 @@ const TabsProject = () => {
               </span>
             </button>
           </div>
-        </div>
-        <div
+        </div> */}
+        {/*   <div
           className=" flex h-full flex-row items-stretch justify-items-stretch rounded-lg bg-gray-50 py-5 pl-5 dark:bg-gray-800"
           id="contacts"
           role="tabpanel"
           aria-labelledby="contacts-tab"
         >
           <CarouselFront className="h-full" />
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -23,7 +23,7 @@ const GaleryStacks = () => {
     { name: "firebase-plain-wordmark", size: 6 },
     { name: "react-original-wordmark", size: 6 },
     { name: "nextjs-original-wordmark", size: 8 },
-    { name: "nestjs-plain-wordmark", size: 8 },
+    // { name: "nestjs-plain-wordmark", size: 8 },
   ]);
 
   useEffect(() => {

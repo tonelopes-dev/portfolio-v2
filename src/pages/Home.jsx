@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <div className="">
+      <div>
         <Banner />
         <GaleryStacks />
       </div>

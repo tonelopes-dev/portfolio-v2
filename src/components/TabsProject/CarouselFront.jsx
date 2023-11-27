@@ -73,19 +73,13 @@ const CarouselFront = () => {
         modules={[Pagination, Navigation]}
         className="mySwiper px-7 py-5"
       >
-        <SwiperSlide className="w-auto">
+        <SwiperSlide className="w-full ">
           <CardProjects
-            imgPath="https://raw.githubusercontent.com/tonelopes-dev/arvore-de-links-mode-dark-and-light-/main/.github/preview.png"
-            titleProject="DevLinks"
-            description="A árvore de links é um projeto que reune todos os links em um só lugar, como um cartão de visitas online.
-
-            "
-            linkGithub={
-              "https://github.com/tonelopes-dev/arvore-de-links-mode-dark-and-light-"
-            }
-            linkProject={
-              "https://tonelopes-dev.github.io/arvore-de-links-mode-dark-and-light-/"
-            }
+            imgPath="https://raw.githubusercontent.com/tonelopes-dev/mylinks/main/assets/img/print-project/projeto-mylinks.jpg"
+            titleProject="Meus links"
+            description="É um projeto que reune todos os links em um só lugar, como um cartão de visitas online."
+            linkGithub={"https://github.com/tonelopes-dev/mylinks"}
+            linkProject={"https://tonelopes-dev.github.io/mylinks/"}
           />
         </SwiperSlide>
         <SwiperSlide className="!important mr-0 w-full">
@@ -192,15 +186,7 @@ const CarouselFront = () => {
             linkProject={"https://tonelopes-dev.github.io/portfolio/"}
           />
         </SwiperSlide>
-        <SwiperSlide className="w-full ">
-          <CardProjects
-            imgPath="https://raw.githubusercontent.com/tonelopes-dev/mylinks/main/assets/img/print-project/projeto-mylinks.jpg"
-            titleProject="Meus links"
-            description="É um projeto que reune todos os links em um só lugar, como um cartão de visitas online."
-            linkGithub={"https://github.com/tonelopes-dev/mylinks"}
-            linkProject={"https://tonelopes-dev.github.io/mylinks/"}
-          />
-        </SwiperSlide>
+
         <SwiperSlide className="w-full ">
           <CardProjects
             imgPath="https://raw.githubusercontent.com/tonelopes-dev/jogo-da-memoria/main/images/print-project/projeto-jogo-da-memoria.jpg"
@@ -235,6 +221,21 @@ const CarouselFront = () => {
             description="A Landing Page Sanduíche foi desenvolvida para estudos de Responsividade usando as tecnologias acima."
             linkGithub={"https://github.com/tonelopes-dev/food-peek"}
             linkProject={"https://tonelopes-dev.github.io/food-peek/"}
+          />
+        </SwiperSlide>
+        <SwiperSlide className="w-auto">
+          <CardProjects
+            imgPath="https://raw.githubusercontent.com/tonelopes-dev/arvore-de-links-mode-dark-and-light-/main/.github/preview.png"
+            titleProject="DevLinks"
+            description="A árvore de links é um projeto que reune todos os links em um só lugar, como um cartão de visitas online.
+
+            "
+            linkGithub={
+              "https://github.com/tonelopes-dev/arvore-de-links-mode-dark-and-light-"
+            }
+            linkProject={
+              "https://tonelopes-dev.github.io/arvore-de-links-mode-dark-and-light-/"
+            }
           />
         </SwiperSlide>
       </Swiper>

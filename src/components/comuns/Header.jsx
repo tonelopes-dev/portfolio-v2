@@ -52,12 +52,12 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link
-                  to="about"
+                <a
+                  href="#aboutme"
                   className="block rounded py-2 pl-3 pr-4 text-white hover:bg-gray-100  md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 "
                 >
                   Sobre mim
-                </Link>
+                </a>
               </li>
 
               {/*  <li>
@@ -71,11 +71,12 @@ const Header = () => {
               <li>
                 <button
                   id="dropdownDividerButton"
-                  data-dropdown-toggle="dropdownDivider"
+                  data-dropdown-toggle="dropdownDivider1"
                   className="inline-flex items-center rounded-lg bg-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   type="button"
                 >
-                  Projetos
+                  <a href="#default-tab">Projetos</a>
+
                   <svg
                     className="ml-2.5 h-2.5 w-2.5"
                     aria-hidden="true"

@@ -126,6 +126,9 @@ loop stacks */
     gradient 5s ease infinite,
     gradient-paused 20s linear infinite; /* Adicione a segunda animação */
 }
+.h-max-img {
+  max-height: 500px;
+}
 
 @keyframes gradient {
   0% {

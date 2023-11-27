@@ -2,16 +2,13 @@ import React from "react";
 import SocialMedia from "../comuns/SocialMedia";
 
 const AboutMe = () => (
-  <>
+  <div id="aboutme">
     <div className="mt-5 flex justify-center rounded-t bg-blue-400 py-5 text-center">
       <h2 className="pb-3 text-center text-2xl font-bold text-white">
         Sobre mim
       </h2>
     </div>
-    <div
-      className="bg-aboutme mb-5 flex	h-max flex-wrap items-start justify-evenly  rounded-b bg-opacity-90 shadow-md"
-      id="aboutme"
-    >
+    <div className="bg-aboutme mb-5 flex	h-max flex-wrap items-start justify-evenly  rounded-b bg-opacity-90 shadow-md">
       {/*  <div className="relative h-screen">
         <img
           className="sticky top-0 mx-auto max-w-xs  md:mt-6"
@@ -124,7 +121,7 @@ const AboutMe = () => (
         <SocialMedia />
       </div>
     </div>
-  </>
+  </div>
 );
 
 export default AboutMe;
