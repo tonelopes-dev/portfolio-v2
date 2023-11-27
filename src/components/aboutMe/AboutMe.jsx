@@ -1,6 +1,5 @@
 import React from "react";
-import SocialMedia from "../comuns/SocialMedia";
-
+import SocialMedia from "/src/components/comuns/SocialMedia";
 
 const AboutMe = () => (
   <div id="aboutme">

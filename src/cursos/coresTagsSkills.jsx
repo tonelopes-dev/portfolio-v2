@@ -12,7 +12,7 @@ const colors = {
   Comunicação: "pink",
   Design: "yellow",
   Prototipagem: "teal",
-  Testes: "violet",
+  Testes: "teal",
   Acessibilidade: "green",
   MobileFirst: "purple",
   Lógica: "yellow",
