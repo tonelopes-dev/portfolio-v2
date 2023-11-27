@@ -1,8 +1,8 @@
 import React from "react";
 
-import ButtonDownloadCV from "../Comuns/ButtonDownloadCV";
 import ButtonGithub from "../Comuns/ButtonGithub";
 import ButtonLinkedin from "../Comuns/ButtonLinkedin";
+import ButtonDownloadCV from "../comuns/ButtonDownloadCV";
 
 const Banner = () => {
   return (
@@ -22,7 +22,6 @@ const Banner = () => {
           <div className="flex flex-wrap justify-start">
             <ButtonLinkedin />
             <ButtonGithub />
-
             <ButtonDownloadCV />
           </div>
         </div>
