@@ -20,7 +20,7 @@ const TabsProject = () => {
               type="button"
               role="tab"
               aria-controls="profile"
-              aria-selected="false"
+              aria-selected="true"
             >
               Frontend
             </button>
