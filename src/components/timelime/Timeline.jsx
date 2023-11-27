@@ -1,5 +1,5 @@
 import React from "react";
-import cursos from "../../cursos/dadosDosCursos";
+import cursos from "../../Cursos/dadosDosCursos";
 import ListarCursos from "./ListarCursos";
 
 const Timeline = () => {

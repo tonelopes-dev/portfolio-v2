@@ -1,6 +1,7 @@
 import React from "react";
 import SocialMedia from "../comuns/SocialMedia";
 
+
 const AboutMe = () => (
   <div id="aboutme">
     <div className="mt-5 flex justify-center rounded-t bg-blue-400 py-5 text-center">

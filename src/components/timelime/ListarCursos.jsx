@@ -1,8 +1,8 @@
 import React from "react";
 
-import CardTimeline from "./cardTimeline/CardTimeline";
-import TimeAndLocal from "./cardTimeline/TimeAndLocal";
-import IconTimeLine from "./cardTimeline/IconTimeLine";
+import CardTimeline from "./CardTimeline/CardTimeline";
+import TimeAndLocal from "./CardTimeline/TimeAndLocal";
+import IconTimeLine from "./CardTimeline/IconTimeLine";
 
 const ListarCursos = ({ itens }) => {
   return (

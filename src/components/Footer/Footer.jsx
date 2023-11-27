@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "../comuns/Logo";
 import SocialMedia from "../comuns/SocialMedia";
 
 const Footer = () => {

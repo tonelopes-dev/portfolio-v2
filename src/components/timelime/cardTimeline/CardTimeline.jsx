@@ -1,5 +1,5 @@
 import React from "react";
-import colors from "../../../cursos/coresTagsSkills";
+import colors from "../../../Cursos/coresTagsSkills";
 
 const CardTimeline = ({ image, title, softSkills, hardSkills }) => {
   return (
