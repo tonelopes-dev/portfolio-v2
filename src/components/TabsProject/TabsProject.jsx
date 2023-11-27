@@ -15,14 +15,14 @@ const TabsProject = () => {
   return (
     <div className=" rounded-md bg-blue-400  pt-8">
       <h2 className=" text-2xl font-bold text-white ">Meus Projetos</h2>
-      <div className="  border-b border-gray-200 dark:border-gray-700">
+      <div className="mb-4 ml-4 border-gray-200 ">
         <ul
-          className="mx-14 flex flex-wrap text-center text-sm font-medium"
+          className="-mb-px flex flex-wrap text-center text-sm font-medium"
           id="default-tab"
           data-tabs-toggle="#default-tab-content"
           role="tablist"
         >
-          <li className="mr-2" role="presentation">
+          <li className="me-2" role="presentation">
             <button
               className="inline-block rounded-t-lg border-b-2 p-4 text-white active:border-blue-800 md:text-lg "
               id="profile-tab"
@@ -30,12 +30,12 @@ const TabsProject = () => {
               type="button"
               role="tab"
               aria-controls="profile"
-              aria-selected="true"
+              aria-selected="false"
             >
               Frontend
             </button>
           </li>
-          <li className="mr-2" role="presentation">
+          <li className="me-2" role="presentation">
             <button
               className="inline-block rounded-t-lg border-b-2 p-4 text-white hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300 md:text-lg"
               id="dashboard-tab"
@@ -52,16 +52,15 @@ const TabsProject = () => {
       </div>
       <div id="default-tab-content">
         <div
-          className=" flex w-full flex-nowrap gap-32 overflow-x-auto rounded-lg bg-gray-50 bg-opacity-90 p-2 dark:bg-gray-800 sm:gap-8"
+          className="hidden rounded-lg bg-gray-50 p-4 dark:bg-gray-800"
           id="profile"
           role="tabpanel"
           aria-labelledby="profile-tab"
         >
           <CarouselFront className="md:h-full" />
         </div>
-
         <div
-          className="flex  flex-col rounded-lg bg-gray-50 p-4 dark:bg-gray-800"
+          className="hidden rounded-lg bg-gray-50 p-4 dark:bg-gray-800"
           id="dashboard"
           role="tabpanel"
           aria-labelledby="dashboard-tab"
