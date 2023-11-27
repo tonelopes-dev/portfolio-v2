@@ -27,7 +27,7 @@ const TabsProject = () => {
           </li>
           <li className="me-2" role="presentation">
             <button
-              className="inline-block rounded-t-lg border-b-2 p-4 text-white hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300 md:text-lg"
+              className="inline-block rounded-t-lg border-b-2 p-4 text-white hover:border-gray-300 hover:text-gray-600  md:text-lg"
               id="dashboard-tab"
               data-tabs-target="#dashboard"
               type="button"
@@ -42,7 +42,7 @@ const TabsProject = () => {
       </div>
       <div id="default-tab-content">
         <div
-          className="flex hidden  rounded-lg bg-gray-50 p-4 dark:bg-gray-800"
+          className="flex   rounded-lg bg-gray-50 p-4 "
           id="profile"
           role="tabpanel"
           aria-labelledby="profile-tab"
@@ -50,7 +50,7 @@ const TabsProject = () => {
           <CarouselFront className="md:h-full" />
         </div>
         <div
-          className="flex hidden rounded-lg bg-gray-50 p-4 dark:bg-gray-800"
+          className="hidden rounded-lg bg-gray-50 p-4 "
           id="dashboard"
           role="tabpanel"
           aria-labelledby="dashboard-tab"
