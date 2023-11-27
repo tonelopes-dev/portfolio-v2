@@ -1,5 +1,4 @@
 import React from "react";
-
 import ListarCursos from "./ListarCursos";
 import cursos from "../../cursos/dadosDosCursos";
 
