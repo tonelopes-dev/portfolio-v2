@@ -1,17 +1,7 @@
-import React, { useState } from "react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/scrollbar";
-
 import CarouselFront from "./CarouselFront";
 import CarouselBack from "./CarouselBack";
 
 const TabsProject = () => {
-  const [activeTab, setActiveTab] = useState("tab1");
-
   return (
     <div className=" rounded-md bg-blue-400  pt-8">
       <h2 className=" text-2xl font-bold text-white ">Meus Projetos</h2>
