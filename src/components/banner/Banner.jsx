@@ -29,7 +29,7 @@ const Banner = () => {
       <div className="h-max-img w-auto  items-center justify-center ">
         <img
           className="mx-auto h-full w-auto py-4"
-          src="./src/assets/tone-sobre.png"
+          src="https://raw.githubusercontent.com/tonelopes-dev/portfolio-v2/main/src/assets/tone-sobre.png"
           alt="Descrição da imagem"
         />
       </div>

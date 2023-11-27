@@ -47,7 +47,8 @@ const cursos = [
       "Joi",
       "Lógica",
     ],
-    image: "/src/assets/capa-cubos-academy.png",
+    image:
+      "https://raw.githubusercontent.com/tonelopes-dev/portfolio-v2/main/src/assets/capa-cubos-academy.png",
   },
   {
     id: 1,
@@ -71,7 +72,8 @@ const cursos = [
       "Knex",
       "SQLite",
     ],
-    image: "/src/assets/capa-explorer.jpeg",
+    image:
+      "https://raw.githubusercontent.com/tonelopes-dev/portfolio-v2/main/src/assets/capa-explorer.jpeg",
   },
   {
     id: 2,
@@ -97,7 +99,8 @@ const cursos = [
       "Comunicação",
     ],
 
-    image: "/src/assets/capa-unp.jpg",
+    image:
+      "https://raw.githubusercontent.com/tonelopes-dev/portfolio-v2/main/src/assets/capa-unp.jpg",
   },
 ];
 export default cursos;
