@@ -1,6 +1,7 @@
 import React from "react";
-import cursos from "/src/Cursos/dadosDosCursos";
+
 import ListarCursos from "./ListarCursos";
+import cursos from "../../cursos/dadosDosCursos";
 
 const Timeline = () => {
   return (
