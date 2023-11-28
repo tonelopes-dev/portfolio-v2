@@ -8,7 +8,7 @@ const CardProjects = ({
   linkGithub,
 }) => {
   return (
-    <div className="mx-15 mb-5 box-border flex h-full w-80 flex-col justify-between rounded-lg border border-gray-200 bg-gray-100 shadow-md hover:bg-white hover:shadow">
+    <div className="mx-15 mb-5 box-border flex h-full max-w-xs flex-col justify-between rounded-lg border border-gray-200 bg-gray-100 shadow-md hover:bg-white hover:shadow">
       <div className="flex  w-full flex-grow flex-col items-center">
         <img
           className="max-h-44 w-full max-w-full rounded-t-lg object-cover"
