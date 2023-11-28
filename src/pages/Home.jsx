@@ -17,10 +17,10 @@ const Home = () => {
         <Banner />
         <GaleryStacks />
       </div>
-
       <AboutMe />
       <TabsProject />
       <Timeline />
+
       <Footer />
     </>
   );

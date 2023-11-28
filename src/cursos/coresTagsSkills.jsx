@@ -28,7 +28,7 @@ const colors = {
   "Banco de Dados": "pink",
   "Estrutura de Dados": "purple",
   "Programação Orientada a Objetos": "teal",
-  Algoritmos: "red", // Adicionado "red" para Algoritmos
+  Algoritmos: "red", 
 };
 
 export default colors;

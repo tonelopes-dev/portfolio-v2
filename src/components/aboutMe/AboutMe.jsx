@@ -9,13 +9,6 @@ const AboutMe = () => (
       </h2>
     </div>
     <div className="bg-aboutme mb-5 flex	h-max flex-wrap items-start justify-evenly  rounded-b bg-opacity-90 shadow-md">
-      {/*  <div className="relative h-screen">
-        <img
-          className="sticky top-0 mx-auto max-w-xs  md:mt-6"
-          src="./src/assets/tone-sobre.png"
-          alt="image description"
-        />
-      </div> */}
       <div className="flex-1 border-x-2 bg-white p-8  md:w-3/4">
         <p className="my-auto mb-10  text-left text-lg font-normal text-gray-700 dark:text-gray-400 lg:text-xl">
           Olá! Sou{" "}

@@ -58,6 +58,9 @@ body {
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #a461fbaa);
 }
+.tabs {
+  border: none !important;
+}
 
 @keyframes logo-spin {
   from {
@@ -96,62 +99,16 @@ loop stacks */
   box-shadow: 0 5px 15px rgba(92, 220, 255, 0.333);
 }
 
-.project-container {
-  width: 100%; /* ou um tamanho fixo desejado */
-}
-
-@keyframes scrollIcons {
-  from {
-    transform: translateX(100%);
-  }
-  to {
-    transform: translateX(-100%);
-  }
-}
 .icon-container {
   white-space: nowrap;
   overflow: hidden;
   position: relative; /* Adicione esta propriedade */
 }
 
-.icon {
-  display: inline-block;
-  animation: scrollIcons 23s linear infinite;
-}
-
 .bg-galeryStacks {
   background: linear-gradient(-45deg, #dffff7, #e4e1ff, #e0f1fc, #e8e9ff);
   background-size: 400% 400%;
-  animation:
-    gradient 5s ease infinite,
-    gradient-paused 20s linear infinite; /* Adicione a segunda animação */
 }
 .h-max-img {
   max-height: 500px;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-@keyframes gradient-paused {
-  0%,
-  100% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-}
-
-.icon:hover {
-  animation-play-state: paused; /* Pausa a animação dos ícones ao passar o mouse sobre eles */
 }

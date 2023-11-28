@@ -12,7 +12,7 @@ const ButtonDownloadCV = () => {
       >
         <i className="fa-solid fa-download "></i>
         <span className="ml-3">Download CV</span>
-      </button>{" "}
+      </button>
     </a>
   );
 };

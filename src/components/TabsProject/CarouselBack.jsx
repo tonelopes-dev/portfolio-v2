@@ -71,7 +71,7 @@ const CarouselFront = () => {
           },
         }}
         modules={[Pagination, Navigation]}
-        className="mySwiper px-7 py-5"
+        className="mySwiper bg-white  px-7 py-5"
       >
         <SwiperSlide className="w-auto">
           <CardProjects

@@ -13,9 +13,9 @@ const stack = StacksJson.map((item) => (
 
 return (
   <div className="flex">
-    {" "}
+   
     <div id="default-carousel" className=" w-40 p-4 " data-carousel="slide">
-      {/* <!-- Carousel wrapper --> */}
+     
       <div className="relative h-56 overflow-hidden rounded-lg md:h-20 ">
         {stack}
       </div>

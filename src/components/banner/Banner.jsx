@@ -24,7 +24,7 @@ const Banner = () => {
             <ButtonDownloadCV />
           </div>
         </div>
-        {/* <SocialMedia /> */}
+       
       </div>
       <div className="h-max-img w-auto  items-center justify-center ">
         <img
@@ -33,14 +33,6 @@ const Banner = () => {
           alt="Descrição da imagem"
         />
       </div>
-
-      {/* <div className=" m-auto flex  w-1/4 content-center items-center justify-center p-2  md:max-w-sm lg:mb-10">
-          <img
-            className="  rounded-full"
-            src="./src/assets/tone-sobre.png"
-            alt="image description"
-          />
-        </div> */}
     </div>
   );
 };
