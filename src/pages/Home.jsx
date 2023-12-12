@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Analytics } from "@vercel/analytics/react";
 import Footer from "/src/components/Footer/Footer";
 import Timeline from "/src/components/timeline/Timeline";
 import TabsProject from "/src/components/TabsProject/TabsProject";
@@ -21,6 +21,7 @@ const Home = () => {
       <Timeline />
 
       <Footer />
+      <Analytics />
     </>
   );
 };
