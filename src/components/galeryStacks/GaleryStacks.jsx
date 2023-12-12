@@ -29,7 +29,7 @@ const GaleryStacks = () => {
   return (
     <div className="icon-container bg-galeryStacks  flex flex-row gap-10 border-t bg-gray-50 p-3 py-5  shadow-md sm:rounded-b-lg">
       <Marquee>
-        <div className="icon mx-5 flex h-20 w-auto flex-row items-center gap-10  overflow-y-hidden rounded-lg">
+        <div className="icon mx-5 flex h-20 w-auto flex-row items-center gap-10  overflow-hidden rounded-lg">
           {icons.map((icon, index) => (
             <Icon
               key={index}
