@@ -1,5 +1,5 @@
 import "./App.css";
-import "./i18n/index.jsx";
+// import "./i18n/index.jsx";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
