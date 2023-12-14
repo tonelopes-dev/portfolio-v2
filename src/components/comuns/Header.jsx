@@ -85,7 +85,7 @@ const Header = () => {
                 </a>
               </li>
 
-              <li>
+              <li className="relative">
                 <button
                   className="text-md inline-flex items-center rounded-lg px-5 py-3 pl-3 pr-4 text-center font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4  focus:ring-blue-300 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700"
                   type="button"
@@ -111,9 +111,9 @@ const Header = () => {
                 <div
                   className={`${
                     isProjectOpen ? "" : "hidden "
-                  }z-10 absolute right-24 mt-3 w-44 divide-y divide-gray-100 rounded-lg bg-white shadow dark:divide-gray-600 dark:bg-gray-700`}
+                  }z-10 absolute mt-3 w-44 divide-y divide-gray-100 rounded-lg bg-white shadow dark:divide-gray-600 dark:bg-gray-700 md:right-3 md:top-8`}
                 >
-                  <ul className="py-2 text-sm text-gray-700 dark:text-gray-200">
+                  <ul className=" py-2 text-sm text-gray-700 dark:text-gray-200">
                     <li>
                       <a
                         href="#projects"
