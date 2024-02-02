@@ -110,7 +110,7 @@ const AboutMe = () => {
             .
             <br />
             <br />
-            <strong className="text-bold">
+            <strong className="text-bold mb-3">
               Explore mais sobre minhas habilidades, projetos anteriores e como
               posso agregar valor à sua equipe ou empreendimento.
             </strong>
