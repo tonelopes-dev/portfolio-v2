@@ -1,15 +1,15 @@
 import React from "react";
 import SocialMedia from "/src/components/comuns/SocialMedia";
-import { useTranslation } from "react-i18next";
+/* import { useTranslation } from "react-i18next"; */
 
 const parser = new DOMParser();
 const AboutMe = () => {
-  const { t } = useTranslation();
+  /* const { t } = useTranslation(); */
   return (
     <div id="aboutme">
       <div className="mt-5 flex justify-center rounded-t bg-blue-400 py-5 text-center">
         <h2 className="pb-3 text-center text-2xl font-bold text-white">
-          {t("header.home")}Sobre mim
+          Sobre mim
         </h2>
       </div>
       <div className="bg-aboutme mb-5 flex	h-max flex-wrap items-start justify-evenly  rounded-b bg-opacity-90 shadow-md">
@@ -110,13 +110,13 @@ const AboutMe = () => {
             .
             <br />
             <br />
-            <strong className="text-bold">
+            <strong className="text-bold mb-3">
               Explore mais sobre minhas habilidades, projetos anteriores e como
               posso agregar valor à sua equipe ou empreendimento.
             </strong>
-            <div
+            {/*  <div
               dangerouslySetInnerHTML={{ __html: t("aboutMe.description") }}
-            />
+            /> */}
           </p>
           <SocialMedia />
         </div>

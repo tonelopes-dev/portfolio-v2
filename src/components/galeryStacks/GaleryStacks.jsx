@@ -23,6 +23,19 @@ const GaleryStacks = () => {
     { name: "firebase-plain-wordmark", size: 6 },
     { name: "react-original-wordmark", size: 6 },
     { name: "nextjs-original-wordmark", size: 8 },
+    {
+      /* <i class="devicon-npm-original-wordmark colored"></i>,
+
+    <i class="devicon-graphql-plain-wordmark colored"></i>,
+
+    <i class="devicon-jest-plain colored"></i>,
+
+    <i class="devicon-jquery-plain-wordmark colored"></i>, 
+    
+            <i class="devicon-vscode-plain-wordmark colored"></i>
+          */
+    },
+
     // { name: "nestjs-plain-wordmark", size: 8 },
   ]);
 
@@ -34,10 +47,19 @@ const GaleryStacks = () => {
             <Icon
               key={index}
               name={icon.name}
-              className="transform-gpu text-center transition-transform hover:scale-105 hover:shadow-md"
+              className="transform-gpu text-center transition-transform"
               size={icon.size}
             />
           ))}
+
+          <img
+            className="w-14"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+          />
+          <img
+            className="w-14"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+          />
         </div>
       </Marquee>
     </div>
