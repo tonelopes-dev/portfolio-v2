@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/no-unknown-property */
 
 const Logo = () => {
   return (
@@ -25,8 +25,8 @@ const Logo = () => {
               x2="93.57323698859122"
               y2="91.5968880194427"
             >
-              <stop stopColor="#c1f4ff" offset="0"></stop>
-              <stop stopColor="#0075cc" offset="1"></stop>
+              <stop stopColor="#63615f" offset="0"></stop>
+              <stop stopColor="#1c2701" offset="1"></stop>
             </linearGradient>
           </defs>
         </svg>

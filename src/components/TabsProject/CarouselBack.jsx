@@ -1,4 +1,3 @@
-import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -9,7 +8,7 @@ import "swiper/css/navigation";
 import "swiper/swiper-bundle.css";
 
 // import required modules
-import { Pagination, Navigation, Scrollbar, A11y } from "swiper/modules";
+import { Pagination, Navigation } from "swiper/modules";
 import CardProjects from "./CardProject";
 import { useState } from "react";
 

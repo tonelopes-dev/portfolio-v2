@@ -5,7 +5,7 @@ import "./styles.css";
 
 const TabsProject = () => {
   return (
-    <div className=" rounded-md bg-blue-400  pt-8" id="projects">
+    <div className=" rounded-md bg-gray-800  pt-8" id="projects">
       <h2 className=" text-2xl font-bold text-white ">Meus Projetos</h2>
       <div className="mb-4  border-gray-200 ">
         <Tabs.Root className="TabsRoot w-full shadow-none" defaultValue="tab1">
@@ -20,7 +20,7 @@ const TabsProject = () => {
               Frontend
             </Tabs.Trigger>
             <Tabs.Trigger
-              className="TabsTrigger font-sans text-lg font-bold focus:text-white"
+              className="TabsTrigger font-sans text-lg font-bold focus:text-white "
               value="tab2"
             >
               Backend

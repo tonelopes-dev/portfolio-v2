@@ -1,41 +1,20 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Logo from "./Logo";
 import { Link } from "react-router-dom";
-import * as NavigationMenu from "@radix-ui/react-navigation-menu";
-import classNames from "classnames";
 import "./styles.css";
 
 const Header = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
   const [isProjectOpen, setProjectOpen] = useState(false);
 
-  const ListItem = React.forwardRef(
-    ({ className, children, title, ...props }, forwardedRef) => (
-      <li>
-        <NavigationMenu.Link asChild>
-          <a
-            className={classNames("ListItemLink", className)}
-            {...props}
-            ref={forwardedRef}
-          >
-            <div className="ListItemHeading">{title}</div>
-            <p className="ListItemText">{children}</p>
-          </a>
-        </NavigationMenu.Link>
-      </li>
-    ),
-  );
-
   return (
     <div>
-      <nav className="rounded-t bg-blue-400 shadow">
+      <nav className="rounded-t bg-slate-800 shadow">
         <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
-          <Link to="/" className="flex items-center">
-            <Logo />
-            <span className="self-center whitespace-nowrap text-2xl font-bold text-white">
-              Tone Lopes
-            </span>
-          </Link>
+          <Logo />
+          <span className="self-center whitespace-nowrap text-2xl font-bold text-white">
+            Tone Lopes
+          </span>
           <button
             type="button"
             className="inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 md:hidden"
