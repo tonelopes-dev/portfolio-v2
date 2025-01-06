@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const CardProjects = ({
   imgPath,
   titleProject,
@@ -11,7 +12,7 @@ const CardProjects = ({
         <img
           className="max-h-44 w-full max-w-full rounded-t-lg object-cover"
           src={imgPath}
-          alt=""
+          alt={titleProject || "Imagem do projeto"}
         />
 
         <div className="flex w-full flex-col p-5 text-center">
@@ -25,6 +26,7 @@ const CardProjects = ({
         <a
           href={linkGithub}
           target="blank"
+          rel="noopener noreferrer"
           className="glow-button mb-2 me-2 inline-flex items-center rounded-lg bg-gray-700 bg-gradient-to-r from-gray-500 via-gray-600 to-gray-700 px-3 py-2 text-center text-sm font-medium text-white hover:bg-gray-800 hover:bg-gradient-to-br hover:text-yellow-100 focus:outline-none focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-800"
         >
           Github
@@ -47,6 +49,7 @@ const CardProjects = ({
         <a
           href={linkProject}
           target="blank"
+          rel="noopener noreferrer"
           className="glow-button mb-2 me-2 inline-flex items-center rounded-lg bg-gray-700 bg-gradient-to-r from-gray-500 via-gray-600 to-gray-700 px-3 py-2 text-center text-sm font-medium text-white hover:bg-gray-800 hover:bg-gradient-to-br hover:text-yellow-100 focus:outline-none focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-800"
         >
           Ver projeto

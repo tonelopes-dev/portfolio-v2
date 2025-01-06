@@ -1,10 +1,10 @@
-import React from "react";
 
 const ButtonDownloadCV = () => {
   return (
     <a
-      href="https://drive.google.com/file/d/1N6GA_U2Sf1BtYO7Dr5Sz8dJ3QDy3JHVW/view?usp=sharing"
+      href="https://drive.google.com/file/d/1_ZjWS4ZWq9hAu39LUyHGwFVRd6rKWvLv/view?usp=sharing"
       target="_blank"
+      rel="noreferrer"
     >
       <button
         type="button"

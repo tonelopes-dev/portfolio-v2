@@ -1,4 +1,3 @@
-import React from "react";
 import { Analytics } from "@vercel/analytics/react";
 import Footer from "/src/components/Footer/Footer";
 import Timeline from "/src/components/timeline/Timeline";
@@ -16,8 +15,8 @@ const Home = () => {
         <Banner />
         <GaleryStacks />
       </div>
-      <AboutMe />
       <TabsProject />
+      <AboutMe />
       <Timeline />
 
       <Footer />

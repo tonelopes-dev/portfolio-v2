@@ -1,4 +1,3 @@
-import React from "react";
 import ButtonLinkedin from "/src/components/comuns/ButtonLinkedin";
 import ButtonGithub from "/src/components/comuns/ButtonGithub";
 import ButtonDownloadCV from "/src/components/comuns/ButtonDownloadCV";
