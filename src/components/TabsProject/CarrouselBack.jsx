@@ -11,7 +11,7 @@ import "swiper/swiper-bundle.css";
 import { Pagination, Navigation } from "swiper/modules";
 import CardProjects from "./CardProject";
 
-const CarouselFront = () => {
+const CarrouselFront = () => {
   return (
     <>
       <Swiper
@@ -72,4 +72,4 @@ const CarouselFront = () => {
   );
 };
 
-export default CarouselFront;
+export default CarrouselFront;

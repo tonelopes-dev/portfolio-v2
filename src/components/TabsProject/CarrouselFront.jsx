@@ -1,4 +1,3 @@
-import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -9,41 +8,10 @@ import "swiper/css/navigation";
 import "swiper/swiper-bundle.css";
 
 // import required modules
-import { Pagination, Navigation, Scrollbar, A11y } from "swiper/modules";
+import { Pagination, Navigation } from "swiper/modules";
 import CardProjects from "./CardProject";
-import { useState } from "react";
 
 const CarouselFront = () => {
-  const [swiperRef, setSwiperRef] = useState(null);
-
-  let appendNumber = 4;
-  let prependNumber = 1;
-
-  const prepend2 = () => {
-    swiperRef.prependSlide([
-      '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
-      '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
-    ]);
-  };
-
-  const prepend = () => {
-    swiperRef.prependSlide(
-      '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
-    );
-  };
-
-  const append = () => {
-    swiperRef.appendSlide(
-      '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
-    );
-  };
-
-  const append2 = () => {
-    swiperRef.appendSlide([
-      '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
-      '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
-    ]);
-  };
   return (
     <>
       <Swiper
