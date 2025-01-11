@@ -29,7 +29,7 @@ const CardProjects = ({
           rel="noopener noreferrer"
           className="glow-button mb-2 me-2 inline-flex items-center rounded-lg bg-gray-700 bg-gradient-to-r from-gray-500 via-gray-600 to-gray-700 px-3 py-2 text-center text-sm font-medium text-white hover:bg-gray-800 hover:bg-gradient-to-br hover:text-yellow-100 focus:outline-none focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-800"
         >
-          Github
+          Repósitorio
           <svg
             className="ml-2 h-3.5 w-3.5"
             aria-hidden="true"
@@ -50,9 +50,9 @@ const CardProjects = ({
           href={linkProject}
           target="blank"
           rel="noopener noreferrer"
-          className="glow-button mb-2 me-2 inline-flex items-center rounded-lg bg-gray-700 bg-gradient-to-r from-gray-500 via-gray-600 to-gray-700 px-3 py-2 text-center text-sm font-medium text-white hover:bg-gray-800 hover:bg-gradient-to-br hover:text-yellow-100 focus:outline-none focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-800"
+          className="glow-button mb-2 me-2 inline-flex items-center rounded-lg bg-gray-700 bg-gradient-to-r from-teal-500 via-teal-600 to-teal-700 px-3 py-2 text-center text-sm font-medium text-white hover:bg-gray-800 hover:bg-gradient-to-br hover:text-yellow-100 focus:outline-none focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-800"
         >
-          Ver projeto
+          Projeto Online
           <svg
             className="ml-2 h-3.5 w-3.5"
             aria-hidden="true"
