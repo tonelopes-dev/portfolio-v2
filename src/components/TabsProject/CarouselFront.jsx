@@ -79,7 +79,7 @@ const CarouselFront = () => {
             titleProject="Meus links"
             description="É um projeto que reune todos os links em um só lugar, como um cartão de visitas online."
             linkGithub={"https://github.com/tonelopes-dev/mylinks"}
-            linkProject={"https://tonelopes-dev.github.io/mylinks/"}
+            linkProject={"https://mylinks-tonelopes-projects.vercel.app/"}
           />
         </SwiperSlide>
         <SwiperSlide className="!important mr-0 w-full">
