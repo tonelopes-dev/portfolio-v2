@@ -1,10 +1,9 @@
-
 const ButtonGithub = () => {
   return (
     <a href="https://github.com/tonelopes-dev" target="_blank" rel="noreferrer">
       <button
         type="button"
-        className="mb-2 me-2 inline-flex items-center rounded-lg bg-[#24292F] px-5 py-2.5 text-center text-sm font-bold text-white hover:bg-[#24292F]/90 focus:outline-none focus:ring-4 focus:ring-[#24292F]/50 dark:hover:bg-[#050708]/30 dark:focus:ring-gray-500"
+        className="mb-2 me-2 inline-flex   items-center  rounded-lg  bg-teal-700 px-5  py-2.5   text-center text-sm  font-bold  text-amber-100  hover:bg-teal-800 focus:outline-none focus:ring-4 focus:ring-teal-300 dark:bg-teal-600  dark:hover:bg-teal-700 dark:focus:ring-teal-800 "
       >
         <svg
           className="me-2 h-4 w-4"

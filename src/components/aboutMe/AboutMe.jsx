@@ -5,13 +5,13 @@ const AboutMe = () => {
   /* const { t } = useTranslation(); */
   return (
     <div id="aboutme">
-      <div className="mt-5 flex justify-center rounded-t bg-gray-800 py-5 text-center">
-        <h2 className="pb-3 text-center text-2xl font-bold text-white">
+      <div className=" flex justify-center rounded-t bg-teal-800 py-5 text-center">
+        <h2 className="pb-3 text-center text-2xl font-bold text-amber-200">
           Sobre mim
         </h2>
       </div>
-      <div className="bg-aboutme mb-5 flex	h-max flex-wrap items-start justify-evenly  rounded-b bg-opacity-90 shadow-md">
-        <div className="mb-4 flex flex-1 flex-col gap-2 border-x-2 bg-white p-8 md:w-3/4">
+      <div className="bg-aboutme flex	h-max flex-wrap items-start justify-evenly  rounded-b bg-opacity-90 shadow-md">
+        <div className="flex flex-1 flex-col gap-2 border-x-2 bg-white p-8 md:w-3/4">
           <p className="my-auto mb-10  text-left text-lg font-normal text-gray-700 dark:text-gray-400 lg:text-xl">
             <strong className="text-bold">Participei de bootcamps</strong> de
             destaque, incluindo o{" "}

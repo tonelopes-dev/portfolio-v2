@@ -4,23 +4,21 @@ import Timeline from "/src/components/timeline/Timeline";
 import TabsProject from "/src/components/TabsProject/TabsProject";
 import Header from "/src/components/comuns/Header";
 import Banner from "/src/components/banner/Banner";
-import GaleryStacks from "/src/components/galeryStacks/GaleryStacks";
 import AboutMe from "/src/components/aboutMe/AboutMe";
 
 const Home = () => {
   return (
     <>
       <Header />
-      <div>
+      <main className="flex flex-col gap-4">
         <Banner />
-        <GaleryStacks />
-      </div>
-      <TabsProject />
-      <AboutMe />
-      <Timeline />
+        <TabsProject />
+        <AboutMe />
+        <Timeline />
 
-      <Footer />
-      <Analytics />
+        <Footer />
+        <Analytics />
+      </main>
     </>
   );
 };
