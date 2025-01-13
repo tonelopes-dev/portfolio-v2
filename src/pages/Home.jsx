@@ -9,7 +9,8 @@ import AboutMe from "/src/components/aboutMe/AboutMe";
 const Home = () => {
   return (
     <>
-      <Header />
+      {/*       <Header />
+       */}{" "}
       <main className="flex flex-col gap-4">
         <Banner />
         <TabsProject />

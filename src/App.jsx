@@ -4,6 +4,8 @@ import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 
+// import { useTranslation } from "react-i18next";
+
 export default function App() {
   return (
     <BrowserRouter>
