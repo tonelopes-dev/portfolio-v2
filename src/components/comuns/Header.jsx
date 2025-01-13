@@ -55,7 +55,7 @@ const Header = () => {
           }w-full bg-transparent md:block md:w-auto`}
           id="navbar-default"
         >
-          <ul className="my-4 flex flex-col items-center rounded-lg border border-gray-100 py-4 font-medium dark:border-gray-700 dark:bg-gray-800 md:mt-0 md:flex-row md:space-x-8 md:border-0">
+          <ul className="my-4 flex flex-col items-center rounded-lg border border-gray-100 py-4 font-medium dark:border-gray-700 dark:bg-teal-800 md:mt-0 md:flex-row md:space-x-8 md:border-0">
             <li>
               <Link
                 to="/"
