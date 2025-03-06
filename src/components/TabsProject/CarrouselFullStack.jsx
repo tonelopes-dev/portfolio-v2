@@ -52,6 +52,30 @@ const CarrouselFullStack = () => {
                         linkProject={'https://fsw-store-xi-eight.vercel.app/'}
                     />
                 </SwiperSlide>
+                <SwiperSlide className="w-full ">
+                    <CardProjects
+                        statusProject={'private'}
+                        imgPath="/banner-graninha-app-lp@2x.png"
+                        titleProject="Graninha App "
+                        description="O Graninha App é uma plataforma de gestão financeira que ajuda você a monitorar suas movimentações e oferece insights personalizados para facilitar o controle do seu orçamento."
+                        linkGithub={''}
+                        linkProject={'https://www.graninha-app.com.br/login'}
+                        landingPage={
+                            'https://www.graninha-app.com.br/landing-page'
+                        }
+                    />
+                </SwiperSlide>
+                <SwiperSlide className="w-full ">
+                    <CardProjects
+                        statusProject="" // ou "Em Desenvolvimento", etc.
+                        imgPath="/banner-project-mcdonalds.jpg" // ou o caminho correto
+                        titleProject="McDonald's Self Checkout"
+                        description="Sistema de autoatendimento para pedidos em restaurantes McDonalds." // Descrição correta
+                        linkGithub="https://github.com/tonelopes-dev/selfcheckout-mcdonalds" // Se houver
+                        linkProject="https://selfcheckout-mcdonalds-mx5x.vercel.app/fsw-donalds" // Link correto
+                        landingPage="" // link correto
+                    />
+                </SwiperSlide>
             </Swiper>
         </>
     )
