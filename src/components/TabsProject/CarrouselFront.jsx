@@ -43,6 +43,18 @@ const CarouselFront = () => {
             >
                 <SwiperSlide className="w-full ">
                     <CardProjects
+                        imgPath="https://github.com/tonelopes-dev/ecoconecta/blob/main/github/banner-ecoconecta.png?raw=true"
+                        titleProject="EcoConecta Reciclagem 🌱"
+                        description="Conectando você a pontos de coleta!
+Ajude o planeta. Encontre locais para reciclagem e descarte consciente perto de você."
+                        linkGithub={
+                            'https://github.com/tonelopes-dev/ecoconecta'
+                        }
+                        linkProject={'https://ecoconecta.vercel.app/'}
+                    />
+                </SwiperSlide>
+                <SwiperSlide className="w-full ">
+                    <CardProjects
                         imgPath="https://raw.githubusercontent.com/tonelopes-dev/mylinks/main/assets/img/print-project/projeto-mylinks.jpg"
                         titleProject="Meus links"
                         description="É um projeto que reune todos os links em um só lugar, como um cartão de visitas online."
@@ -113,45 +125,7 @@ const CarouselFront = () => {
                         }
                     />
                 </SwiperSlide>
-                <SwiperSlide className="w-full ">
-                    <CardProjects
-                        imgPath="https://raw.githubusercontent.com/tonelopes-dev/explore-03-treinos-exclusivos/main/images/print-project.png"
-                        titleProject="Treinos exclusivos"
-                        description="Uma Landing Page para entender as principais Tags HTML e CSS Media Queries"
-                        linkGithub={
-                            'https://github.com/tonelopes-dev/explore-03-treinos-exclusivos'
-                        }
-                        linkProject={
-                            'https://explore-03-treinos-exclusivos.vercel.app/'
-                        }
-                    />
-                </SwiperSlide>
-                <SwiperSlide className="w-full ">
-                    <CardProjects
-                        imgPath="https://raw.githubusercontent.com/tonelopes-dev/explorer-desafio-04-recriando-layout/main/images/print-project.png"
-                        titleProject="Recriando layout"
-                        description="Desafio proposto durante o curso Explore da RocketSeat, recriar um layout enviado pelo figma."
-                        linkGithub={
-                            'https://github.com/tonelopes-dev/explorer-desafio-04-recriando-layout'
-                        }
-                        linkProject={
-                            'https://explorer-desafio-04-recriando-layout.vercel.app/'
-                        }
-                    />
-                </SwiperSlide>
-                <SwiperSlide className="w-full ">
-                    <CardProjects
-                        imgPath="https://raw.githubusercontent.com/tonelopes-dev/explorer-desafio-05-formulario-crie-seu-evento/main/images/print-project.png"
-                        titleProject='Formulário: "Crie seu Evento"'
-                        description="Entendendo sobre inputs de um formulário para captação de informação e uso do CSS."
-                        linkGithub={
-                            'https://github.com/tonelopes-dev/explorer-desafio-05-formulario-crie-seu-evento'
-                        }
-                        linkProject={
-                            'https://explorer-desafio-05-formulario-crie-seu-evento.vercel.app/'
-                        }
-                    />
-                </SwiperSlide>
+
                 <SwiperSlide className="w-full ">
                     <CardProjects
                         imgPath="https://raw.githubusercontent.com/tonelopes-dev/explorer-desafio-09-mobile-first/main/assets/capa-grid-animacoes-css.png"
@@ -243,6 +217,45 @@ const CarouselFront = () => {
                         }
                         linkProject={
                             'https://tonelopes-dev.github.io/arvore-de-links-mode-dark-and-light-/'
+                        }
+                    />
+                </SwiperSlide>
+                <SwiperSlide className="w-full ">
+                    <CardProjects
+                        imgPath="https://raw.githubusercontent.com/tonelopes-dev/explore-03-treinos-exclusivos/main/images/print-project.png"
+                        titleProject="Treinos exclusivos"
+                        description="Uma Landing Page para entender as principais Tags HTML e CSS Media Queries"
+                        linkGithub={
+                            'https://github.com/tonelopes-dev/explore-03-treinos-exclusivos'
+                        }
+                        linkProject={
+                            'https://explore-03-treinos-exclusivos.vercel.app/'
+                        }
+                    />
+                </SwiperSlide>
+                <SwiperSlide className="w-full ">
+                    <CardProjects
+                        imgPath="https://raw.githubusercontent.com/tonelopes-dev/explorer-desafio-04-recriando-layout/main/images/print-project.png"
+                        titleProject="Recriando layout"
+                        description="Desafio proposto durante o curso Explore da RocketSeat, recriar um layout enviado pelo figma."
+                        linkGithub={
+                            'https://github.com/tonelopes-dev/explorer-desafio-04-recriando-layout'
+                        }
+                        linkProject={
+                            'https://explorer-desafio-04-recriando-layout.vercel.app/'
+                        }
+                    />
+                </SwiperSlide>
+                <SwiperSlide className="w-full ">
+                    <CardProjects
+                        imgPath="https://raw.githubusercontent.com/tonelopes-dev/explorer-desafio-05-formulario-crie-seu-evento/main/images/print-project.png"
+                        titleProject='Formulário: "Crie seu Evento"'
+                        description="Entendendo sobre inputs de um formulário para captação de informação e uso do CSS."
+                        linkGithub={
+                            'https://github.com/tonelopes-dev/explorer-desafio-05-formulario-crie-seu-evento'
+                        }
+                        linkProject={
+                            'https://explorer-desafio-05-formulario-crie-seu-evento.vercel.app/'
                         }
                     />
                 </SwiperSlide>
