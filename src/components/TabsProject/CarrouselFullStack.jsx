@@ -76,6 +76,19 @@ const CarrouselFullStack = () => {
                         landingPage="" // link correto
                     />
                 </SwiperSlide>
+                <SwiperSlide className="w-full ">
+                    <CardProjects
+                        statusProject="" // ou "Em Desenvolvimento", etc.
+                        imgPath="https://github.com/tonelopes-dev/frontend-api-my-notes/blob/main/public/print-banner.png?raw=true" // ou o caminho correto
+                        titleProject="My Notes - Flash Card Notes"
+                        description="O aplicativo de anotações rápidas que permite criar e gerenciar flashcards para auxiliar na memorização de conceitos.
+
+                        " // Descrição correta
+                        linkGithub="https://github.com/tonelopes-dev/frontend-api-my-notes" // Se houver
+                        linkProject="https://frontend-api-my-notes.vercel.app/" // Link correto
+                        landingPage="" // link correto
+                    />
+                </SwiperSlide>
             </Swiper>
         </>
     )
