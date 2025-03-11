@@ -17,7 +17,7 @@ const AboutMe = () => {
                             <div className="absolute inset-0 bg-gradient-to-r from-amber-400 to-amber-300 rounded-full p-1">
                                 <img
                                     className="w-full h-full object-cover rounded-full"
-                                    src="/public/tone-lopes-perfil.png"
+                                    src="https://tonelopes-dev.github.io/mylinks/assets/img/avatar-photo/avatar-light.jpg"
                                     alt="Imagem do perfil"
                                 />
                             </div>
