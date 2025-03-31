@@ -69,6 +69,19 @@ const CarrouselFront = () => {
                         }
                     />
                 </SwiperSlide>
+                <SwiperSlide className="w-auto">
+                    <CardProjects
+                        imgPath="https://github.com/tonelopes-dev/frontend-api-my-notes/blob/main/public/print-banner.png?raw=true"
+                        titleProject="API My Notes - Backend"
+                        description="O MyAppNotes é um aplicativo de anotações rápidas que permite criar e gerenciar flashcards para auxiliar na memorização de conceitos. "
+                        linkGithub={
+                            'https://github.com/tonelopes-dev/backend-api-my-notes'
+                        }
+                        linkProject={
+                            'https://frontend-api-my-notes.vercel.app/'
+                        }
+                    />
+                </SwiperSlide>
             </Swiper>
         </>
     )
