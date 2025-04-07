@@ -1,75 +1,85 @@
 /* eslint-disable react/prop-types */
-import Marquee from "react-fast-marquee";
+import Marquee from 'react-fast-marquee'
 
 const Icon = ({ name, className, size }) => {
-  if (!name) return null;
-  return (
-    <i className={`devicon-${name} ${className} text-${size}xl colored`}></i>
-  );
-};
+    if (!name) return null
+    return (
+        <i
+            className={`devicon-${name} ${className} text-${size}xl colored`}
+        ></i>
+    )
+}
 
 const GaleryStacks = () => {
-  const icons = [
-    { name: "html5-plain-wordmark", size: 6 },
-    { name: "css3-plain-wordmark", size: 6 },
-    { name: "javascript-plain", size: 6 },
-    { name: "typescript-plain", size: 6 },
-    { name: "git-plain-wordmark", size: 6 },
-    { name: "github-original-wordmark", size: 6 },
-    { name: "bootstrap-plain-wordmark", size: 6 },
-    { name: "tailwindcss-original-wordmark", size: 9 },
-    { name: "nodejs-plain-wordmark", size: 9 },
-    { name: "express-original-wordmark", size: 8 },
-    { name: "sqlite-plain-wordmark", size: 8 },
-    { name: "postgresql-plain-wordmark", size: 6 },
-    { name: "mongodb-plain-wordmark", size: 6 },
-    { name: "firebase-plain-wordmark", size: 6 },
-    { name: "react-original-wordmark", size: 6 },
-    { name: "nextjs-original-wordmark", size: 8 },
-    { name: "docker-plain-wordmark", size: 6 },
-  ];
+    const icons = [
+        { name: 'html5-plain-wordmark', size: 6 },
+        { name: 'css3-plain-wordmark', size: 6 },
+        { name: 'javascript-plain', size: 6 },
+        { name: 'typescript-plain', size: 6 },
+        { name: 'git-plain-wordmark', size: 6 },
+        { name: 'github-original-wordmark', size: 6 },
+        { name: 'bootstrap-plain-wordmark', size: 6 },
+        { name: 'tailwindcss-original-wordmark', size: 9 },
+        { name: 'nodejs-plain-wordmark', size: 9 },
+        { name: 'express-original-wordmark', size: 8 },
+        { name: 'sqlite-plain-wordmark', size: 8 },
+        { name: 'postgresql-plain-wordmark', size: 6 },
+        { name: 'mongodb-plain-wordmark', size: 6 },
+        { name: 'firebase-plain-wordmark', size: 6 },
+        { name: 'react-original-wordmark', size: 6 },
+        { name: 'nextjs-original-wordmark', size: 8 },
+        { name: 'docker-plain-wordmark', size: 6 },
+    ]
 
-  const customIcons = [
-    {
-      name: "Prisma",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg",
-    },
+    const customIcons = [
+        {
+            name: 'Angular',
+            src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg',
+        },
+        {
+            name: 'Prisma',
+            src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg',
+        },
 
-    {
-      name: "Figma",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
-    },
-    {
-      name: "Insomnia",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/insomnia/insomnia-original.svg",
-    },
-  ];
+        {
+            name: 'Figma',
+            src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg',
+        },
+        {
+            name: 'Insomnia',
+            src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/insomnia/insomnia-original.svg',
+        },
+        {
+            name: 'Vercel',
+            src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg',
+        },
+    ]
 
-  return (
-    <div className="icon-container bg-galeryStacks flex flex-row gap-10    rounded-b-lg shadow-md">
-      <Marquee className="marquee  bg-teal-100 py-5">
-        <div className="icon mx-5 flex h-20 w-auto flex-row items-center gap-10 overflow-hidden ">
-          {icons.map((icon, index) => (
-            <Icon
-              key={index}
-              name={icon.name}
-              className="transform-gpu text-center transition-transform"
-              size={icon.size}
-            />
-          ))}
-          {customIcons.map((icon, index) => (
-            <img
-              key={index}
-              className="w-14"
-              src={icon.src}
-              alt={icon.name}
-              title={icon.name}
-            />
-          ))}
+    return (
+        <div className="icon-container bg-galeryStacks flex flex-row gap-10    rounded-b-lg shadow-md">
+            <Marquee className="marquee  bg-teal-100 py-5">
+                <div className="icon mx-5 flex h-20 w-auto flex-row items-center gap-10 overflow-hidden ">
+                    {icons.map((icon, index) => (
+                        <Icon
+                            key={index}
+                            name={icon.name}
+                            className="transform-gpu text-center transition-transform"
+                            size={icon.size}
+                        />
+                    ))}
+                    {customIcons.map((icon, index) => (
+                        <img
+                            key={index}
+                            className="w-14"
+                            src={icon.src}
+                            alt={icon.name}
+                            title={icon.name}
+                        />
+                    ))}
+                </div>
+            </Marquee>
         </div>
-      </Marquee>
-    </div>
-  );
-};
+    )
+}
 
-export default GaleryStacks;
+export default GaleryStacks
