@@ -57,7 +57,7 @@ const CarrouselFullStack = () => {
                         statusProject={'private'}
                         imgPath="/banner-graninha-app-lp@2x.png"
                         titleProject="Graninha App "
-                        description="O Graninha App é uma plataforma de gestão financeira que ajuda você a monitorar suas movimentações e oferece insights personalizados para facilitar o controle do seu orçamento."
+                        description="O Graninha é uma plataforma de gestão financeira que monitora suas movimentações e oferece insights personalizados usando inteligência artificial."
                         linkGithub={''}
                         linkProject={'https://www.graninha-app.com.br/login'}
                         landingPage={
