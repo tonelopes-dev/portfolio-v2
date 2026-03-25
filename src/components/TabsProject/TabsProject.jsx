@@ -20,13 +20,13 @@ const TabsProject = () => {
                         aria-label="Manage your account"
                     >
                         <Tabs.Trigger
-                            className="TabsTrigger border-none font-sans text-lg font-bold shadow-none ring-0 data-[state=active]:bg-white data-[state=active]:text-amber-500"
+                            className="TabsTrigger right- border-none font-sans text-lg font-bold shadow-none ring-0 data-[state=active]:bg-white data-[state=active]:text-amber-500"
                             value="tab1"
                         >
                             FullStack
                         </Tabs.Trigger>
                         <Tabs.Trigger
-                            className="TabsTrigger border-none font-sans text-lg font-bold shadow-none ring-0 data-[state=active]:bg-white data-[state=active]:text-amber-500"
+                            className="TabsTrigger h- border-none font-sans text-lg font-bold shadow-none ring-0 data-[state=active]:bg-white data-[state=active]:text-amber-500"
                             value="tab2"
                         >
                             Frontend
